@@ -1,0 +1,68 @@
+baseURL = "https://antonioagudo.com/"
+languageCode = "de-de"
+defaultContentLanguage = "de"
+title = "Antonio Agudo"
+#theme = "hugo-universal-theme"
+theme = "personal-web"
+style="blue"
+canonifyurls = true
+paginate = 3
+copyright = "Copyright © 2019, Antonio Agudo. All rights reserved."
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params.intro]
+  main = "Hallo, ich bin Antonio :wave:"
+  sub = "Ich bin freiberuflicher Softwareentwickler und Unternehmer"
+
+[taxonomies]
+  programming = "programming"
+  general = "general"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  post = "article"
+  portfolio = "project"
+
+[params.notFound]
+  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+
+[params]
+author = "Antonio Agudo"
+introDescription = "Hi, I'm Antonio Agudo. Freiberurflicher Entwickler und Unternehmer."
+date_format = "2.1.2006"
+
+[params.social]
+	linkedin = "https://linkedin.com/in/antonioagudo"
+	twitter = "https://twitter.com/keyboardsamurai"
+	github = "https://github.com/keyboardsamurai"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Post"
+  title = "Blog section"
+  url = "/post/"
+  weight = -100
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
