@@ -51,10 +51,25 @@ date_format = "2.1.2006"
 
 [[menu.main]]
   identifier = "blog"
-  name = "Post"
+  name = "Blog"
   title = "Blog section"
   url = "/post/"
-  weight = -100
+  weight = -80
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio section"
+  url = "/portfolio/"
+  weight = -90
+
+[[menu.main]]
+  identifier = "about"
+  name = "Über mich"
+  title = "Über mich"
+  url = "/about/"
+  weight = -110
+
 
 [sitemap]
   changefreq = "weekly"
