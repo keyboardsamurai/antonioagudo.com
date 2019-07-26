@@ -45,7 +45,7 @@ date_format = "2.1.2006"
 	github = "https://github.com/keyboardsamurai"
 
 [params.sidebar]
-  backgroundImage = 'images/temple_sidebar.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  backgroundImage = 'images/temple-sidebar.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
   logo = "/images/antonio-profile.jpg" # - default "/images/edna-west.jpg"
 
