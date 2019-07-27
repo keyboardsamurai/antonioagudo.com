@@ -1,4 +1,5 @@
-baseURL = "https://antonioagudo.com/"
+#baseURL = "https://antonioagudo.com/"
+baseURL = "https://festive-jackson-9ed7d0.netlify.com/"
 languageCode = "de-de"
 defaultContentLanguage = "de"
 title = "Antonio Agudo"
