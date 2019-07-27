@@ -12,7 +12,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params.intro]
-  main = "Hallo, ich bin Antonio :wave:"
+  main = "Hi, ich bin Antonio :wave:"
   sub = "Ich bin freiberuflicher Softwareentwickler und Unternehmer"
 
 [taxonomies]
