@@ -21,20 +21,24 @@ Ich spreche fließend Deutsch, Englisch und Spanisch.
 [Lernen Sie mich besser kennen](/about "Get to know me better")
 
 
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
   <p>
-    <label>Ihr Name: <input type="text" name="name" /></label>   
+    <label for="name">Name: </label>   
+    <input type="text" name="name" />
   </p>
   <p>
-    <label>Ihre Email: <input type="email" name="email" /></label>
+    <label for="email">Email: </label>
+    <input type="email" name="email" />
   </p>
   <p>
-    <label>Nachricht: <textarea name="message"></textarea></label>
+    <label for="message">Nachricht: </label>
+    <textarea name="message"></textarea>
   </p>
   <p>
     <button type="submit">Senden</button>
   </p>
 </form>
+
 
 Name    | Age
 --------|------
