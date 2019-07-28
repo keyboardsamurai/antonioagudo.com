@@ -13,7 +13,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params.intro]
-  main = "Hi, ich bin Antonio :wave:"
+  main = "Hi, ich bin Antonio"
   sub = "Ich bin freiberuflicher Softwareentwickler und Unternehmer"
 
 [taxonomies]
@@ -22,6 +22,11 @@ pygmentsUseClasses = true
 
 [blackfriday]
   hrefTargetBlank = true
+
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
 
 [params.sections]
   # Define how your sections will be called
@@ -34,21 +39,23 @@ pygmentsUseClasses = true
   h1 = 'Bummer!'
   p = "It seems that this page doesn't exist."
 
-
-[params]
-author = "Antonio Agudo"
-introDescription = "Hi, I'm Antonio Agudo. Freiberurflicher Entwickler und Unternehmer."
-date_format = "2.1.2006"
-
 [params.social]
 	linkedin = "https://linkedin.com/in/antonioagudo"
 	twitter = "https://twitter.com/keyboardsamurai"
 	github = "https://github.com/keyboardsamurai"
 
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
 [params.sidebar]
   backgroundImage = 'images/temple-sidebar.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
   logo = "/images/antonio-profile.jpg" # - default "/images/edna-west.jpg"
+
+[params.contact]
+  email = ""
+  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 [[menu.main]]
   identifier = "blog"

@@ -4,7 +4,7 @@ description: Eine mobile Anwendung zur Freizeitgestaltung
 date: "2019-07-26T17:26:45+02:00"
 jobDate: 2016
 work: [startup, programming, mobile, ios]
-techs: []
+techs: [java, dropwizard, objective-c, swift]
 designs: []
 thumbnail: ios-development-mobile-app-optionist/optionist_app_highlights_m.png
 projectUrl: 
@@ -17,7 +17,7 @@ testimonial:
 
 #### Video: Optionist App Walkthrough
 <div style="text-align: center;">
-    <iframe width="315" height="560" src="https://www.youtube.com/embed/UyBP0WcEmeE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="315" height="560" src="https://www.youtube.com/embed/1aeI1dptcxM" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 #### RTL Hessen probiert die Optionist App aus

@@ -4,10 +4,18 @@ description: Welcome to this sample project
 images: ["/images/sample.jpg"]
 ---
 
-Hey,
+Hi,
 
-I'm Edna West, a Web Developer and Entrepreneur.
+ich bin Antonio Agudo, freiberuflicher Softwareentwickler und Unternehmer mit einem Abschluss im [Studienfach Informatik der 
+TH Köln](https://www.th-koeln.de/) und fast 20 Jahren Berufserfahrung. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus error cumque quisquam necessitatibus libero dolore porro, quo at molestiae modi voluptatibus iusto alias corporis. Accusamus, debitis, atque. Maiores, distinctio, neque.
+Köln, Deutschland ist auch derzeit mein Heimatstandort. 
+Meine Leidenschaft ist die Software und ihre Auswirkungen auf die Gesellschaft. 
+Mein Ziel ist es, großartige Produkte zu entwickeln, die das Leben der Menschen zum Besseren verändern, 
+und zu diesem Zweck mit großartigen Unternehmen zu arbeiten und eigene Unternehmungen aufzubauen.
+
+Ich bin immer daran interessiert, an interessanten und herausfordernden Projekten mitzuarbeiten. 
+Sie können mich über das Formular auf dieser Website kontaktieren. 
+Ich spreche fließend Deutsch, Englisch und Spanisch.
 
 [Get to know me better](/about "Get to know me better")

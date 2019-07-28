@@ -1,6 +1,6 @@
 ---
-title: PORTFOLIO
+title: Portfolio
 description: 'Portfolio Section'
 ---
 
-You'll add here a general introduction of your portfolio page.
+Dies sind einige meiner öffentlich zugänglichen Projekte meiner eigenen Startups. 
