@@ -4,6 +4,9 @@ description: Meine Referenzkunden, erfolgreich durchgeführte Softwareentwicklun
 images: ["/images/sample.jpg"]
 ---
 
+
+<img src="/images/build-measure-earn.jpg" class="article-header-image">
+
 Ich bin Full-stack Entwickler und beherrsche Backend- und Frontend-Technologien 
 auf Mobilen-, Desktop- und Server-Plattformen.
 
@@ -30,8 +33,8 @@ Für diese Firmen habe ich unter anderem bislang schon erfolgreich Projekte durc
         <img src="/images/referenzen/acentic_logo.jpg">
         <img src="/images/referenzen/schlankr_logo.png">
         <img src="/images/referenzen/unitymedia_logo.jpg">
-        <img src="/images/referenzen/earthtv_logo.png">
         <img src="/images/referenzen/contentteam_logo.jpg">
+        <img src="/images/referenzen/earthtv_logo.png">
         <img src="/images/referenzen/imageloop_logo.jpg">
     </div>
 </center>
@@ -52,8 +55,8 @@ Für diese Firmen habe ich unter anderem bislang schon erfolgreich Projekte durc
     <img src="/images/referenzen/schlankr_logo.png">
 </div>                       
 <div class="reference-container">
-    <img src="/images/referenzen/earthtv_logo.png">
     <img src="/images/referenzen/contentteam_logo.jpg">
+    <img src="/images/referenzen/earthtv_logo.png">
     <img src="/images/referenzen/imageloop_logo.jpg">
 </div>
                                         
