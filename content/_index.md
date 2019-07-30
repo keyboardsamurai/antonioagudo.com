@@ -39,9 +39,3 @@ Ich spreche fließend Deutsch, Englisch und Spanisch.
     <button type="submit">Senden</button>
   </p>
 </form>
-
-
-Name    | Age
---------|------
-Bob     | 27
-Alice   | 23
