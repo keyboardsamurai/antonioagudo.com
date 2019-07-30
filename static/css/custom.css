@@ -59,3 +59,9 @@ input[type="submit"]:hover {
     background: #69a;
     font-weight: bold;
 }
+
+.reference-logo{
+    background-color: #960050;
+    width: 250px;
+    margin: 20px;
+}

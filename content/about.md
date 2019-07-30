@@ -1,27 +1,33 @@
 ---
 title: ABOUT
-description: Hey, I'm Edna West
+description: Meine Referenzkunden, erfolgreich durchgeführte Softwareentwicklungs projekte
 images: ["/images/sample.jpg"]
 ---
 
 
 This is my about page. :wave:
-
-
-<img src="/images/referenzen/contentteam_logo.jpg" class="reference-logo">
-<img src="/images/referenzen/eon_logo.jpg" class="reference-logo"> 
-<img src="/images/referenzen/imageloop_logo.jpg" class="reference-logo"> 
-<img src="/images/referenzen/pkw_de_logo.png" class="reference-logo"> 
-<img src="/images/referenzen/rewe_digital_logo.jpg" class="reference-logo"> 
-<img src="/images/referenzen/schlankr_logo.png" class="reference-logo"> 
-<img src="/images/referenzen/vodafone_logo.png" class="reference-logo"> 
-
-
-
-![logo](/images/referenzen/contentteam_logo.jpg "Contentteam AG")
-![logo](/images/referenzen/eon_logo.jpg "")
-![logo](/images/referenzen/imageloop_logo.jpg "")
-![logo](/images/referenzen/pkw_de_logo.png "")
-![logo](/images/referenzen/rewe_digital_logo.jpg "")
-![logo](/images/referenzen/schlankr_logo.png "")
-![logo](/images/referenzen/vodafone_logo.png "")
+<div class="reference-container">
+    <img src="/images/referenzen/rewe_digital_logo.jpg">
+    <img src="/images/referenzen/eon_logo.jpg">
+</div>
+ 
+<div class="reference-container">
+    <img src="/images/referenzen/hrs_logo.png">        
+    <img src="/images/referenzen/bayer_logo.jpg">
+    <img src="/images/referenzen/vodafone_logo.png">
+</div>
+<div class="reference-container">
+    <img src="/images/referenzen/pkw_de_logo.png">
+    <img src="/images/referenzen/acentic_logo.jpg">
+    <img src="/images/referenzen/schlankr_logo.png">
+</div>
+                                        
+<div class="reference-container">
+    <img src="/images/referenzen/contentteam_logo.jpg">
+    <img src="/images/referenzen/imageloop_logo.jpg">
+</div>
+                                        
+                                        
+                                        
+                                        
+                                        
