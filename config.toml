@@ -46,7 +46,7 @@ pygmentsUseClasses = true
 
 [params.assets]
   favicon = ""
-  customCSS = "css/custom.css"
+  customCSS = "/css/custom.css"
 
 [params.sidebar]
   backgroundImage = 'images/temple-sidebar.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash

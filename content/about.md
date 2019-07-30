@@ -4,11 +4,20 @@ description: Meine Referenzkunden, erfolgreich durchgeführte Softwareentwicklun
 images: ["/images/sample.jpg"]
 ---
 
-Ich bin ich Full-stack Entwickler und beherrsche Backend- und Frontend- technologien 
-auf Mobilen-, Desktop- und Server-Platformen.    
+Ich bin Full-stack Entwickler und beherrsche Backend- und Frontend-Technologien 
+auf Mobilen-, Desktop- und Server-Plattformen.
 
+Meine Kernkompetenz liegt in der Strukturierung von Kundenanforderungen. 
+Der Konzeptionierung und der erstellung von einsatzreifen Softwarelösungen und der nachfolgenden Eingliederung in 
+den Dauerbetrieb dieser Lösung beim Kunden.
+Hierbei arbeite ich gerne zusammen mit dem Kunden in einer agilen, iterativen Arbeitsweise.
 
-# Referenzkunden
+Ich bin überzeugt davon, dass Kommunikation bei der erstellung von Software, der wahrscheinlich wichtigste Faktor für den
+Erfolg eines Projektes ist. Entsprechend viel Wert lege ich auf ausreichende und klare Verständig während der Projektphasen.
+
+# Meine Referenzkunden
+
+Für diese Firmen habe ich unter anderem bislang schon erfolgreich Projekte durchgeführt.
 
 <center>
     <div class="reference-mobile-container">
