@@ -187,12 +187,30 @@ header
 .chroma
   padding: 10px
 
-.reference-container
-  display: flex
-  justify-content: space-around
-  width: 600px
+@media screen and (min-width: 1260px)
+  .reference-mobile-container
+    display: none
 
-.reference-container img
-  object-fit: contain
-  margin: 20px !important
+  .reference-container
+    display: flex
+    justify-content: space-around
+    width: 600px
 
+  .reference-container img
+    width: 250px !important
+    height: auto
+    object-fit: contain
+    margin: 20px !important
+
+@media screen and (max-width: 1259px)
+  .reference-container
+    display: none
+
+  .reference-mobile-container
+    display: block
+
+  .reference-mobile-container img
+    width: 200px !important
+    height: auto
+    object-fit: contain
+    margin: 20px !important
