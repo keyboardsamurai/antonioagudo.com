@@ -7,4 +7,21 @@ images: ["/images/sample.jpg"]
 
 This is my about page. :wave:
 
-Lorem ipsum dolor sit amet, :smile: consectetur adipisicing elit. Voluptates aut, tenetur distinctio voluptatibus ab. Nihil id dignissimos unde, tenetur iusto facilis suscipit corporis, ipsam necessitatibus, eaque iste deleniti consequuntur reprehenderit? :earth_africa:
+
+<img src="/images/referenzen/contentteam_logo.jpg" class="reference-logo">
+<img src="/images/referenzen/eon_logo.jpg" class="reference-logo"> 
+<img src="/images/referenzen/imageloop_logo.jpg" class="reference-logo"> 
+<img src="/images/referenzen/pkw_de_logo.png" class="reference-logo"> 
+<img src="/images/referenzen/rewe_digital_logo.jpg" class="reference-logo"> 
+<img src="/images/referenzen/schlankr_logo.png" class="reference-logo"> 
+<img src="/images/referenzen/vodafone_logo.png" class="reference-logo"> 
+
+
+
+![logo](/images/referenzen/contentteam_logo.jpg "Contentteam AG")
+![logo](/images/referenzen/eon_logo.jpg "")
+![logo](/images/referenzen/imageloop_logo.jpg "")
+![logo](/images/referenzen/pkw_de_logo.png "")
+![logo](/images/referenzen/rewe_digital_logo.jpg "")
+![logo](/images/referenzen/schlankr_logo.png "")
+![logo](/images/referenzen/vodafone_logo.png "")
