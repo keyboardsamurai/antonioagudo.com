@@ -1,0 +1,23 @@
+{{ partial "header" .}}
+
+<h1>{{ .Title | markdownify }}</h1>
+{{ .Content }}
+
+<h2>Mein neuester Blogeintrag</h2>
+  {{ $pages := where site.RegularPages "Type" "in" "post" }}
+  {{ range first 1 $pages }}
+      {{ partial "post/item" .}}
+    {{ end }}
+
+
+<h2>Mein letztes Portfolioprojekt</h2>
+  {{ $pages := where site.RegularPages "Type" "in" "portfolio" }}
+  {{ range first 1 $pages }}
+      {{ partial "portfolio/item" .}}
+    {{ end }}
+
+
+
+
+
+{{ partial "footer" .}}
