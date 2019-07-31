@@ -10,17 +10,17 @@ images: ["/images/sample.jpg"]
 Ich bin Full-stack Entwickler und beherrsche Backend- und Frontend-Technologien 
 auf Mobilen-, Desktop- und Web-Plattformen.
 
-Meine Kernkompetenz liegt in der Strukturierung von Kundenanforderungen. 
-Der Konzeptionierung und der erstellung von einsatzreifen Softwarelösungen und der nachfolgenden Eingliederung in 
+Meine Kernkompetenz liegt in der Strukturierung von Kundenanforderungen, 
+der Konzeptionierung und der Erstellung von einsatzreifen Softwarelösungen und der nachfolgenden Eingliederung in 
 den Betrieb dieser Lösung beim Kunden.
 Hierbei arbeite ich gerne zusammen mit dem Kunden in einer agilen, iterativen Arbeitsweise.
 
-Ich bin überzeugt davon, dass Kommunikation bei der erstellung von Software, der wahrscheinlich wichtigste Faktor für den
+Ich bin überzeugt davon, dass Kommunikation bei der Erstellung von Software, der wichtigste Faktor für den
 Erfolg eines Projektes ist. Entsprechend viel Wert lege ich auf ausreichende und klare Verständigung während der Projektphasen.
 
 # Meine Referenzkunden
 
-Für diese Firmen habe ich unter anderem bislang schon erfolgreich Projekte durchgeführt.
+Für diese Firmen habe ich unter anderem bislang erfolgreich Projekte durchgeführt.
 
 <center>
     <div class="reference-mobile-container">

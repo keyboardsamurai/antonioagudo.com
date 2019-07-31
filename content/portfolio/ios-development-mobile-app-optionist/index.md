@@ -35,8 +35,8 @@ konnten.
 ### Die Technologie
 
 Die Optionist App wurde als Universal App für iPhone und iPad entwickelt. 
-Die Programmiersprachen Objective-C, sowie das 2016 noch relativ junge [Swift](https://swift.org/) wurden verwendet um 
+Die Programmiersprachen Objective-C, sowie das 2016 noch junge [Swift](https://swift.org/) wurden verwendet, um 
 die mobile App zu realisieren. Hierbei kamen als Entwicklungsumgebung Xcode und AppCode zum Einsatz.   
 
 Die REST-Schnittstelle im Backend wurde über das [Dropwizard](https://www.dropwizard.io) Framework in Java realisiert, 
-welches von einer [PostgreSQL](https://www.postgresql.org/) Datenbank befüttert wurde. 
+welches an eine [PostgreSQL](https://www.postgresql.org/) Datenbank angebunden wurde. 
