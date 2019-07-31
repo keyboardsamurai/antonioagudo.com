@@ -35,7 +35,6 @@ p
   margin-top: 0
   margin-bottom: $margin-blocks/2
   line-height: $line-height_main
-  text-align: left
 
 h1, h2, h3, h4, h5
   font-family: $font-family_header
@@ -252,3 +251,10 @@ img.gopher
   margin: 0 auto $margin-blocks !important
   max-width: 200px
 
+@media screen and (min-width: 768px)
+  p
+    text-align: justify
+
+@media screen and (max-width: 767px)
+  p
+    text-align: left
