@@ -1,6 +1,6 @@
 ---
 title: Optionist App - Entwicklung für iPhone und iPad 
-description: Eine mobile Anwendung zur Freizeitgestaltung  
+description: iPhone entwicklung einer mobilen Anwendung zur Freizeitgestaltung  
 date: "2019-07-26T17:26:45+02:00"
 jobDate: 2016
 work: [startup, programming, mobile, ios]
@@ -14,8 +14,8 @@ testimonial:
   text: "Thema: Langeweile in der Freizeit? Die Optionist App hilft mit kreativen Aktionen. Wurde auf RTL Hessen ausgestrahlt am Montag 26 September 2016, 18:00 Uhr."   
 ---
 Die Optionist App wurde aus dem Bedürfnis geboren, Menschen in ihrer Freizeit neue Dinge ausprobieren zu lassen, 
-die sie noch nie zuvor versucht haben. In der finalen Version der auf iOS verfügbaren mobile App konnten über 500 
-solcher Alltagsabenteuer in einer gameification orientierten Oberfläche erlebt werden.
+die sie noch nie zuvor versucht haben. In der finalen Version der für Apples iPhone und iPad programmierten mobile App konnten über 500 
+solcher Alltagsabenteuer in einer [Gamification](https://de.wikipedia.org/wiki/Gamification) orientierten Oberfläche erlebt werden.
 
 Ein integriertes Social network sorgte zusätzlich dafür, dass sich die Benutzer der App auch untereinander austauschen 
 konnten.
