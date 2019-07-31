@@ -19,7 +19,7 @@ Ich bin immer daran interessiert, an interessanten und herausfordernden Projekte
 Sie können mich über das Formular auf dieser Website kontaktieren. 
 Ich spreche fließend Deutsch, Englisch und Spanisch.
 
-[Lernen Sie mich besser kennen](/about "Get to know me better")
+[Lernen sie mich besser kennen →](/about "Get to know me better")
 
 
 <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
