@@ -1,5 +1,5 @@
 ---
-title: ABOUT
+title: Über mich
 description: Meine Referenzkunden, erfolgreich durchgeführte Softwareentwicklungs projekte
 images: ["/images/sample.jpg"]
 ---
@@ -8,7 +8,7 @@ images: ["/images/sample.jpg"]
 <img src="/images/build-measure-earn.jpg" class="article-header-image">
 
 Ich bin Full-stack Entwickler und beherrsche Backend- und Frontend-Technologien 
-auf Mobilen-, Desktop- und Web-Plattformen.
+auf Mobilen-, Desktop- und Web-Plattformen.  
 
 Meine Kernkompetenz liegt in der Strukturierung von Kundenanforderungen, 
 der Konzeptionierung und der Erstellung von einsatzreifen Softwarelösungen und der nachfolgenden Eingliederung in 
@@ -59,8 +59,6 @@ Für diese Firmen habe ich unter anderem bislang erfolgreich Projekte durchgefü
     <img src="/images/referenzen/earthtv_logo.png">
     <img src="/images/referenzen/imageloop_logo.jpg">
 </div>
-                                        
-                                        
-                                        
-                                        
-                                        
+
+# Technologien
+

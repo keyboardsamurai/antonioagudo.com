@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Erfahrener freiberuflicher Full-Stack Entwickler - Java, Kotlin, Swift, NodeJS 
+description: Antonio Agudo - Erfahrener freiberuflicher Full-Stack Entwickler in Köln für Java, Kotlin, Swift und NodeJS 
 images: ["/images/sample.jpg"]
 ---
 
@@ -21,20 +21,7 @@ Ich spreche fließend Deutsch, Englisch und Spanisch.
 
 [Lernen sie mich besser kennen →](/about "Get to know me better")
 
-<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-  <p>
-    <label for="name">Name: </label>   
-    <input type="text" name="name" />
-  </p>
-  <p>
-    <label for="email">Email: </label>
-    <input type="email" name="email" />
-  </p>
-  <p>
-    <label for="message">Nachricht: </label>
-    <textarea name="message"></textarea>
-  </p>
-  <p>
-    <button type="submit">Senden</button>
-  </p>
-</form>
+
+
+
+* * *

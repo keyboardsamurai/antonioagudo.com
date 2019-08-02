@@ -3,7 +3,6 @@ baseURL = "https://festive-jackson-9ed7d0.netlify.com/"
 languageCode = "de-de"
 defaultContentLanguage = "de"
 title = "Antonio Agudo"
-#theme = "hugo-universal-theme"
 theme = "personal-web"
 style="blue"
 canonifyurls = true
@@ -11,10 +10,11 @@ paginate = 3
 copyright = "Copyright © 2019, Antonio Agudo. All rights reserved."
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+pygmentsstyle = "monokai"
 
 [params.intro]
   main = "Hi, ich bin Antonio"
-  sub = "Ich bin freiberuflicher Softwareentwickler und Unternehmer"
+  sub = "freiberuflicher Softwareentwickler und Unternehmer"
 
 [taxonomies]
   programming = "programming"
