@@ -18,6 +18,69 @@ Hierbei arbeite ich gerne zusammen mit dem Kunden in einer agilen, iterativen Ar
 Ich bin überzeugt davon, dass Kommunikation bei der Erstellung von Software, der wichtigste Faktor für den
 Erfolg eines Projektes ist. Entsprechend viel Wert lege ich auf ausreichende und klare Verständigung während der Projektphasen.
 
+<div class="reference-tech-container methodology">
+    <div class="tech-head">Methodologien</div>
+    <div class="tech-items">
+        <span class="tech-text-label">Methodologien</span>
+        <span class="tech-text-item">Scrum, Extreme Programming / Agile,</span> 
+        <span class="tech-text-item">Test Driven Development (TDD)</span>
+        <span class="tech-text-item">Model Driven Development (MDD), </span>
+    </div>
+</div>
+<p>&nbsp;</p>
+<div class="reference-tech-container backend">
+    <div class="tech-head">Back-End Skills</div>
+    <div class="tech-items">
+        <span class="tech-text-label">Programmiersprachen</span>
+        <span class="tech-text-item">Java, Kotlin, NodeJS</span>
+    </div>
+    <div class="tech-items">
+        <span class="tech-text-label">Frameworks</span>
+        <span class="tech-text-item">Spring Boot, Dropwizard, Akka</span>        
+    </div>
+    <div class="tech-items">
+        <span class="tech-text-label">Enterprise Produkte</span>
+        <span class="tech-text-item">Documentum, Nuclos ERP, Oracle AS, JBoss</span>        
+    </div>
+    <div class="tech-items">
+        <span class="tech-text-label">Verteilte Systeme</span>
+        <span class="tech-text-item">Apache Kafka, RabbitMQ, ActiveMQ, Websphere MQ</span>        
+    </div>
+    <div class="tech-items">
+        <span class="tech-text-label">Cloud</span>
+        <span class="tech-text-item">Amazon Web Services, Google Cloud Platform,</span>    
+        <span class="tech-text-item">Docker & Kubernetes</span>    
+    </div>
+    <div class="tech-items">
+        <span class="tech-text-label">Datenbanken</span>
+        <span class="tech-text-item">PostgreSQL, MySQL, Oracle, MSSQL, HSQLDB, Redis</span>    
+        <span class="tech-text-item">Google Datastore, MongoDB</span>    
+    </div>
+    <div class="tech-items">
+        <span class="tech-text-label">Betriebssysteme</span>
+        <span class="tech-text-item">Windows, Linux, Mac OS, AIX, Solaris</span>
+    </div>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="reference-tech-container frontend">
+    <div class="tech-head">Front-End Skills</div>
+    <div class="tech-items ">
+        <span class="tech-text-label">Mobile</span>
+        <span class="tech-text-item">Objective-C, Swift</span>
+    </div>    
+    <div class="tech-items ">
+        <span class="tech-text-label">Web</span>
+        <span class="tech-text-item">HTML5, Javascript / ES6, CSS, SASS</span>
+    </div>
+    <div class="tech-items">
+        <span class="tech-text-label">Web Frameworks</span>
+        <span class="tech-text-item">Vue.JS, Thymeleaf, Velocity, JSP, JSF</span>
+    </div>
+</div>
+
+
 # Meine Referenzkunden
 
 Für diese Firmen habe ich unter anderem bislang erfolgreich Projekte durchgeführt.

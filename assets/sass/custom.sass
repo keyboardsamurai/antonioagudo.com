@@ -187,7 +187,6 @@ header
 .chroma
   padding: 10px
 
-
 hr
   border: none
   height: 10px
@@ -196,6 +195,80 @@ hr
   background-position: left bottom
   background-repeat: repeat-x
   background-size: 10px 10px
+
+.reference-tech-container
+  padding: 2px
+
+.tech-head
+  text-align: center
+  border-radius: 10px 10px 0px 0px
+  border: 0px solid #000000
+  color: $primary-color
+  padding: 10px
+  width: 100%
+
+.tech-items
+  float: left
+  width: 100%
+  color: $primary-color
+  padding: 10px
+
+.tech-text-label
+  float: left
+  text-align: left
+
+.tech-text-item
+  float: right
+  text-align: right !important
+
+
+.methodology > .tech-head
+  background-color: $dark-blue
+
+.methodology > .tech-items:hover
+  background-color: lighten( $dark-blue, 30% ) !important
+
+.methodology > .tech-items:nth-child(even)
+  background-color: lighten( $dark-blue, 20% )
+
+.methodology > .tech-items:nth-child(odd)
+  background-color: lighten( $dark-blue, 10% )
+
+
+
+
+.backend > .tech-head
+  background-color: $dark-blue
+
+.backend > .tech-items:hover
+  background-color: lighten( $dark-blue, 30% ) !important
+
+.backend > .tech-items:nth-child(even)
+  background-color: lighten( $dark-blue, 20% )
+
+.backend > .tech-items:nth-child(odd)
+  background-color: lighten( $dark-blue, 10% )
+
+$frontend-color: desaturate(adjust-hue($secondary-color,20%), 10%)
+
+.frontend > .tech-head
+  background-color: $frontend-color
+
+.frontend > .tech-items:hover
+  background-color: lighten( $frontend-color, 30% ) !important
+
+.frontend > .tech-items:nth-child(even)
+  background-color: lighten( $frontend-color, 20% )
+
+.frontend >.tech-items:nth-child(odd)
+  background-color: lighten( $frontend-color, 10% )
+
+.tech-items:last-child
+  border-radius: 0px 0px 10px 10px
+
+.reference-mobile-container
+  padding-top: 40px
+
 
 @media screen and (min-width: 1260px)
   .article-header-image
