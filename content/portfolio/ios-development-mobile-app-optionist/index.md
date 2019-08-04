@@ -28,11 +28,13 @@ konnten.
 Sämtliche Entwicklunsgarbeit wurde hierbei von mir als alleinigem Entwickler vorgenommen. Marketing und Redaktion 
 wurden maßgeblich durch meinen Mitgründer [Sebastian Kleinsorge](https://www.xing.com/profile/Sebastian_Kleinsorge2/) betrieben. 
 
-### Back-End technologie
+### Back-End Technologie
 
 Im Back-End wurde hierbei besonders auf maximale Geschwindigkeit hin optimiert. Das notwendige Umsetzen einer Tabellenstruktur
-für das enthaltene Social network und die potenziell massiven gleichzeitigen Anfragen der mobile clients machten frühe 
-performance Tests notwendig die in den Test suites einer CI/CD Umgebung auf Basis von Jenkins berücksichtigt wurden.  
+für das enthaltene Social network und die potenziell massiven gleichzeitigen Anfragen der mobile Clients machten frühe 
+performance Tests notwendig die in den JUnit Test-Suites einer CI/CD Umgebung auf Basis von Jenkins berücksichtigt wurden.
+So konnte garantiert werden, dass die durchschnittlich erreichten Requests pro Sekunde auch bei Code Änderungen immer über 
+den festgelegten Performance basierten Qualitätsmetriken lagen, bevor der Code auf das Produktivsystem aufgespielt wurde.
   
 Die REST-Schnittstelle im Back-End wurde aus diesem Grund über das vergleichsweise leichtgewichtige [Dropwizard](https://www.dropwizard.io) 
 Framework in Java realisiert, welches an eine [PostgreSQL](https://www.postgresql.org/) Datenbank angebunden wurde. 
@@ -40,11 +42,11 @@ Der Zugriff auf die Datenbank erfolgte, statt über einen konventionellen ORM Ma
 simpler strukturierte, aber dafür schnellere [DBI](http://jdbi.org/). 
 
 Die angemeldeten Benutzer Sessions der mobilen Clients wurden durch zustandslose [JWT Tokens](https://jwt.io/) zugeordnet, 
-welche über SSL/TLS gesicherte Verbindungen mit dem Back-End kommunizierten. Ab Clients mit iOS 9 wurde zusätztlich 
+welche über SSL/TLS gesicherte Verbindungen mit dem Back-End kommunizierten. Ab Clients mit iOS 9 wurde zusätzlich 
 [HSTS](https://de.wikipedia.org/wiki/HTTP_Strict_Transport_Security) unterstützt, um die Verbindungen sicherer gegen 
 Protokoll Attacken zu machen.       
 
-### Front-End technologie
+### Front-End Technologie
 
 Die Optionist App wurde als Universal App für iPhone und iPad entwickelt. 
 Die Programmiersprachen Objective-C, sowie das 2016 noch junge [Swift](https://swift.org/) wurden verwendet, um 
