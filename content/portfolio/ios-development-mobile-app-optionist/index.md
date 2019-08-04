@@ -13,6 +13,8 @@ testimonial:
   image: ios-development-mobile-app-optionist/rtl-hessen-logo.png 
   text: "Thema: Langeweile in der Freizeit? Die Optionist App hilft mit kreativen Aktionen. Wurde auf RTL Hessen ausgestrahlt am Montag 26 September 2016, 18:00 Uhr."   
 ---
+### Motivation
+
 Die Optionist App wurde aus dem Bedürfnis geboren, Menschen in ihrer Freizeit neue Dinge ausprobieren zu lassen, 
 die sie noch nie zuvor versucht haben. In der finalen Version der für Apples iPhone und iPad programmierten mobile App konnten über 500 
 solcher Alltagsabenteuer in einer [Gamification](https://de.wikipedia.org/wiki/Gamification) orientierten Oberfläche erlebt werden.
@@ -22,9 +24,34 @@ konnten.
 <div style="text-align: center;">
 ![Das Splashscreen Logo der Optionist App: Make life your playground](/portfolio/ios-development-mobile-app-optionist/optionist-playground-logo.jpg)
 </div>
-    
+
+Sämtliche Entwicklunsgarbeit wurde hierbei von mir als alleinigem Entwickler vorgenommen. Marketing und Redaktion 
+wurden maßgeblich durch meinen Mitgründer [Sebastian Kleinsorge](https://www.xing.com/profile/Sebastian_Kleinsorge2/) betrieben. 
+
+### Back-End technologie
+
+Im Back-End wurde hierbei besonders auf maximale Geschwindigkeit hin optimiert. Das notwendige Umsetzen einer Tabellenstruktur
+für das enthaltene Social network und die potenziell massiven gleichzeitigen Anfragen der mobile clients machten frühe 
+performance Tests notwendig die in den Test suites einer CI/CD Umgebung auf Basis von Jenkins berücksichtigt wurden.  
+  
+Die REST-Schnittstelle im Back-End wurde aus diesem Grund über das vergleichsweise leichtgewichtige [Dropwizard](https://www.dropwizard.io) 
+Framework in Java realisiert, welches an eine [PostgreSQL](https://www.postgresql.org/) Datenbank angebunden wurde. 
+Der Zugriff auf die Datenbank erfolgte, statt über einen konventionellen ORM Mapper wie Hibernate, über das 
+simpler strukturierte, aber dafür schnellere [DBI](http://jdbi.org/). 
+
+Die angemeldeten Benutzer Sessions der mobilen Clients wurden durch zustandslose [JWT Tokens](https://jwt.io/) zugeordnet, 
+welche über SSL/TLS gesicherte Verbindungen mit dem Back-End kommunizierten. Ab Clients mit iOS 9 wurde zusätztlich 
+[HSTS](https://de.wikipedia.org/wiki/HTTP_Strict_Transport_Security) unterstützt, um die Verbindungen sicherer gegen 
+Protokoll Attacken zu machen.       
+
+### Front-End technologie
+
+Die Optionist App wurde als Universal App für iPhone und iPad entwickelt. 
+Die Programmiersprachen Objective-C, sowie das 2016 noch junge [Swift](https://swift.org/) wurden verwendet, um 
+die mobile App zu realisieren. Hierbei kamen als Entwicklungsumgebung Xcode und AppCode zum Einsatz. 
+Komponenten wurden über [Cocoapods](https://cocoapods.org/) eingebunden.     
  
-### Video: Optionist App Walkthrough
+#### Video: Optionist App Walkthrough
 <div style="text-align: center;">
     <iframe width="315" height="560" src="https://www.youtube.com/embed/1aeI1dptcxM" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -32,11 +59,4 @@ konnten.
 ### RTL Hessen probiert die Optionist App aus
 {{<figure src="/portfolio/ios-development-mobile-app-optionist/rtl-hessen-berichtet-ueber-die-optionist-app.jpg">}}
 
-### Die Technologie
 
-Die Optionist App wurde als Universal App für iPhone und iPad entwickelt. 
-Die Programmiersprachen Objective-C, sowie das 2016 noch junge [Swift](https://swift.org/) wurden verwendet, um 
-die mobile App zu realisieren. Hierbei kamen als Entwicklungsumgebung Xcode und AppCode zum Einsatz.   
-
-Die REST-Schnittstelle im Backend wurde über das [Dropwizard](https://www.dropwizard.io) Framework in Java realisiert, 
-welches an eine [PostgreSQL](https://www.postgresql.org/) Datenbank angebunden wurde. 

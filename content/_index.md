@@ -13,7 +13,7 @@ Köln ist auch derzeit meine Heimat.
 Meine Leidenschaft ist die Interaktion mit Software und ihre Auswirkungen auf die Gesellschaft.
  
 Mein Ziel ist es, großartige Produkte zu entwickeln, die das Leben der Menschen zum Besseren verändern, 
-und zu diesem Zweck mit genauso großartigen Unternehmen zu arbeiten oder eigene Unternehmungen aufzubauen.
+und zu diesem Zweck mit genauso großartigen Unternehmen zu arbeiten und eigene Unternehmungen aufzubauen.
 
 Ich bin immer daran interessiert, an interessanten und herausfordernden Projekten teilzunehmen. 
 Sie können mich über das Formular auf dieser Website kontaktieren. 

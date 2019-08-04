@@ -1,30 +1,32 @@
     </main>
   </div>
   <footer>
+      <div class="footer-wrapper">
+          <h2>Get in contact with me</h2>
+          <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+              <p>
+                  <label for="contact-name">Your name: </label>
+                  <input type="text" name="name" id="contact-name"/>
+              </p>
+              <p>
+                  <label for="contact-email">Your email: </label>
+                  <input type="email" name="email" id="contact-email"/>
+              </p>
+              <p>
+                  <label for="contact-message">Your message: </label>
+                  <textarea name="message" id="contact-message"></textarea>
+              </p>
+              <p>
+                  <button type="submit">Senden</button>
+              </p>
+          </form>
+      </div>
+
     <div class="footer-wrapper">
+        <p>&nbsp;</p>
+        <hr>
       <p>Made with {{emojify ":heart:"}} &mdash; Powered by <a href="https://gohugo.io/" target="_blank" rel="external">Hugo</a> and the <a href="https://github.com/bjacquemet/personal-web" target='_blank' rel="external">Personal Web</a> theme.</p>
       <p>{{ .Site.Copyright}}</p>
-    </div>
-    <div class="footer-wrapper">
-      <hr style="border: 0; border-top: 2px dotted #8c8c8c;">
-      <h2>Send me a message</h2>
-      <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-        <p>
-          <label for="name">Name: </label>
-          <input type="text" name="name" />
-        </p>
-        <p>
-          <label for="email">Email: </label>
-          <input type="email" name="email" />
-        </p>
-        <p>
-          <label for="message">Nachricht: </label>
-          <textarea name="message"></textarea>
-        </p>
-        <p>
-          <button type="submit">Senden</button>
-        </p>
-      </form>
     </div>
   </footer>
   {{ template "_internal/google_analytics.html" . }}
