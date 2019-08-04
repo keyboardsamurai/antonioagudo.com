@@ -4,9 +4,9 @@
 {{ .Content }}
 
 <h2>Mein neuester Blogeintrag</h2>
-  {{ $pages := where site.RegularPages "Type" "in" "post" }}
+  {{ $pages := where site.RegularPages "Type" "in" "blog" }}
   {{ range first 1 $pages }}
-      {{ partial "post/item" .}}
+      {{ partial "blog/item" .}}
     {{ end }}
 
 

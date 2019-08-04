@@ -59,6 +59,3 @@ Für diese Firmen habe ich unter anderem bislang erfolgreich Projekte durchgefü
     <img src="/images/referenzen/earthtv_logo.png">
     <img src="/images/referenzen/imageloop_logo.jpg">
 </div>
-
-# Technologien
-

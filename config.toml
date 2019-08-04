@@ -11,6 +11,8 @@ copyright = "Copyright © 2019, Antonio Agudo. All rights reserved."
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 pygmentsstyle = "monokai"
+enableEmoji=true
+enableRobotsTXT=false
 
 [params.intro]
   main = "Hi, ich bin Antonio"
@@ -26,12 +28,12 @@ pygmentsstyle = "monokai"
 [params]
   breadcrumb = true
   accentColor = "#FD3519"
-  mainSections = ['post'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+  mainSections = ['blog'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
 
 [params.sections]
   # Define how your sections will be called
   # when automatically pulled. For instance in the 404 page
-  post = "article"
+  post = "blog"
   portfolio = "project"
 
 [params.notFound]
@@ -61,7 +63,7 @@ pygmentsstyle = "monokai"
   identifier = "blog"
   name = "Blog"
   title = "Blog section"
-  url = "/post/"
+  url = "/blog/"
   weight = -80
 
 [[menu.main]]
