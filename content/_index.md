@@ -1,13 +1,13 @@
 ---
 title: Home
 description: Antonio Agudo - Erfahrener freiberuflicher Full-Stack Entwickler in Köln für Java, Kotlin, Swift und NodeJS 
-images: ["/images/sample.jpg"]
+images: ["/images   /sample.jpg"]
 ---
-
+                           
 Hi,
 
-ich bin Antonio Agudo, freiberuflicher Softwareentwickler und Unternehmer mit einem Abschluss im [Studienfach Informatik der 
-TH Köln](https://www.th-koeln.de/) und fast 20 Jahren Berufserfahrung. 
+ich bin Antonio Agudo, freiberuflicher Softwareentwickler und Unternehmer mit fast 20 Jahren Berufserfahrung
+und einem Diplom im [Studienfach Informatik der TH Köln](https://www.th-koeln.de/).
 
 Köln ist auch derzeit meine Heimat. 
 Meine Leidenschaft ist die Interaktion mit Software und ihre Auswirkungen auf die Gesellschaft.
@@ -100,6 +100,15 @@ Erfolg eines Projektes ist. Entsprechend viel Wert lege ich auf ausreichende und
 # Meine Referenzkunden
 
 Für diese Firmen habe ich unter anderem bislang erfolgreich Projekte durchgeführt.
+
+* [REWE Digital GmbH](https://www.rewe-digital.com/) *Handelskonzern* 
+* [E.ON Climate & Renewables GmbH](https://www.eon.de) *Energieerzeuger*
+* [HRS GmbH](https://hrs.de) *Touristikbranche*
+* [Bayer AG](https://www.bayer.de/) *Chemische und Pharmazeutische Industrie*
+* [Vodafone GmbH](https://www.vodafone.de) *Telekommunikationskonzern*  
+* [Unitymedia GmbH](https://unitymedia.de) *Kabelnetzbetreiber*
+* [PKW.de Autobörse GmbH](https://www.pkw.de) *Gebrauchtwagenbörse*
+
 
 <center>
     <div class="reference-mobile-container">
