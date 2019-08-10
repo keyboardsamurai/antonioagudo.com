@@ -1,90 +1,79 @@
-#baseURL = "https://antonioagudo.com/"
 baseURL = "https://festive-jackson-9ed7d0.netlify.com/"
 languageCode = "de-de"
-defaultContentLanguage = "de"
-title = "Antonio Agudo"
-theme = "personal-web"
-style="blue"
-canonifyurls = true
-paginate = 3
-copyright = "Copyright © 2019, Antonio Agudo. All rights reserved."
+title = "Antonio Agudo - Softwareentwicklung"
+theme = "kross-hugo-portfolio-template"
+summaryLength = "10"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 pygmentsstyle = "monokai"
-enableEmoji=true
-enableRobotsTXT=false
 
-[params.intro]
-  main = "Hi, ich bin Antonio"
-  sub = "freiberuflicher Softwareentwickler und Unternehmer"
+# Plugins
+[params.plugins]
 
-[taxonomies]
-  programming = "programming"
-  general = "general"
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "/css/custom.css"
 
-[blackfriday]
-  hrefTargetBlank = true
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/shuffle/shuffle.min.js"
+
+
+# navigation
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight = 2
+
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 3
+
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  weight = 4
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 5
+
 
 [params]
-  breadcrumb = true
-  accentColor = "#FD3519"
-  mainSections = ['blog'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+logo = "images/logo.png"
+home = "Start"
+# Meta data
+description = "Antonio Agudo - Exptertise in Softwareentwicklung für Konzerne und Startups"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
 
-[params.sections]
-  # Define how your sections will be called
-  # when automatically pulled. For instance in the 404 page
-  post = "blog"
-  portfolio = "project"
+  # Preloader
+  [params.preloader]
+  enable = true
 
-[params.notFound]
-  gopher = "/images/gopher.png" # checkout https://gopherize.me/
-  h1 = 'Bummer!'
-  p = "It seems that this page doesn't exist."
+  [params.contact]
+  enable = true
+  formAction = "#" #contact form works with formspree.io
 
-[params.social]
-	linkedin = "https://linkedin.com/in/antonioagudo"
-	twitter = "https://twitter.com/keyboardsamurai"
-	github = "https://github.com/keyboardsamurai"
-
-[params.assets]
-  favicon = ""
-  customCSS = "/css/custom.css"
-
-[params.sidebar]
-  backgroundImage = 'images/temple-sidebar.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
-  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "/images/antonio-profile.jpg" # - default "/images/edna-west.jpg"
-
-[params.contact]
-  email = ""
-  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
-
-[[menu.main]]
-  identifier = "blog"
-  name = "Blog"
-  title = "Blog section"
-  url = "/blog/"
-  weight = -80
-
-[[menu.main]]
-  identifier = "portfolio"
-  name = "Portfolio"
-  title = "Portfolio section"
-  url = "/portfolio/"
-  weight = -90
-
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
-
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = true
-    respectDoNotTrack = true
-    useSessionStorage = false
-  [privacy.twitter]
-    disable = false
-    enableDNT = true
-    simple = false
+  [params.footer]
+  email = "info at antonioagudo com"
+  phone = "+49 (0) 170 1885991"
+  address = "Eigelstein 57-59, 50688 Köln"

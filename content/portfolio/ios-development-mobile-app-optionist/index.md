@@ -5,7 +5,8 @@ date: "2019-07-26T17:26:45+02:00"
 jobDate: 2016
 work: [startup, programming, mobile, ios]
 techs: [java, dropwizard, objective-c, swift]
-thumbnail: ios-development-mobile-app-optionist/optionist_app_highlights_m.png
+Image: /portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png
+thumbnail: /portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png
 projectUrl: 
 testimonial:
   name: RTL Hessen 
@@ -39,7 +40,7 @@ den festgelegten Performance basierten Qualitätsmetriken lagen, bevor der Code 
 Die REST-Schnittstelle im Back-End wurde aus diesem Grund über das vergleichsweise leichtgewichtige [Dropwizard](https://www.dropwizard.io) 
 Framework in Java realisiert, welches an eine [PostgreSQL](https://www.postgresql.org/) Datenbank angebunden wurde. 
 Der Zugriff auf die Datenbank erfolgte, statt über einen konventionellen ORM Mapper wie Hibernate, über das 
-simpler strukturierte, aber dafür schnellere [DBI](http://jdbi.org/). 
+simpler strukturierte, aber dafür schnellere [JDBI](http://jdbi.org/). 
 
 Die angemeldeten Benutzer Sessions der mobilen Clients wurden durch zustandslose [JWT Tokens](https://jwt.io/) zugeordnet, 
 welche über SSL/TLS gesicherte Verbindungen mit dem Back-End kommunizierten. Ab Clients mit iOS 9 wurde zusätzlich 
@@ -59,6 +60,77 @@ Komponenten wurden über [Cocoapods](https://cocoapods.org/) eingebunden.
 </div>
 
 ### RTL Hessen probiert die Optionist App aus
+<center>
 {{<figure src="/portfolio/ios-development-mobile-app-optionist/rtl-hessen-berichtet-ueber-die-optionist-app.jpg">}}
 
+*Thema: Langeweile in der Freizeit? Die Optionist App hilft mit kreativen Aktionen. Wurde auf RTL Hessen ausgestrahlt am Montag 26 September 2016, 18:00 Uhr.*
+
+<img class="img-fluid w-25 rounded-circle border-thick border-light" src="https://festive-jackson-9ed7d0.netlify.com/portfolio/ios-development-mobile-app-optionist/rtl-hessen-logo.png" alt="RTL Hessen" title="RTL Hessen">
+</center>
+
+
+```java
+
+package com.optionistapp.server.feedback;
+
+import net.bramp.ffmpeg.FFmpeg;
+import net.bramp.ffmpeg.FFmpegExecutor;
+import net.bramp.ffmpeg.FFprobe;
+import net.bramp.ffmpeg.builder.FFmpegBuilder;
+import net.bramp.ffmpeg.job.FFmpegJob;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.concurrent.Callable;
+
+/**
+ * Uses ffmpeg to convert one audio file format to another.
+ *
+ * @author Antonio Agudo mailto:info@antonioagudo.com on 05.07.16
+ */
+public class AudioConversionTask implements Callable<File> {
+
+    private final FFmpeg ffmpeg;
+    private final FFprobe ffprobe;
+    private final File inputFile;
+    private final File outputFile;
+    private final String audioCodec;
+
+    public AudioConversionTask(File inputFile,File outputFile,String audioCodec, File ffmpegBasePath) throws IOException {
+        this.inputFile = inputFile;
+        this.outputFile = outputFile;
+        this.audioCodec = audioCodec;
+        ffmpeg = new FFmpeg(new File(ffmpegBasePath,"ffmpeg").getAbsolutePath());
+        ffprobe = new FFprobe(new File(ffmpegBasePath,"ffprobe").getAbsolutePath());
+    }
+
+    @Override
+    public File call() throws Exception {
+        FFmpegBuilder builder = new FFmpegBuilder()
+                .setInput(this.inputFile.getAbsolutePath())     // Filename, or a FFmpegProbeResult
+                .overrideOutputFiles(true) // Override the output if it exists
+                .addOutput(this.outputFile.getAbsolutePath())   // Filename for the destination
+                .disableSubtitle()       // No subtiles
+                .disableVideo()              // audio only
+                .setAudioChannels(2)         // Stereo audio
+                .setAudioCodec(audioCodec)        // using the aac codec
+                .setAudioSampleRate(48_000)  // at 48KHz
+                .setAudioBitRate(32768)      // at 32 kbit/s
+                .setStrict(FFmpegBuilder.Strict.EXPERIMENTAL) // Allow FFmpeg to use experimental specs
+                .done();
+
+        FFmpegExecutor executor = new FFmpegExecutor(ffmpeg, ffprobe);
+
+//// Run a one-pass encode
+        FFmpegJob job = executor.createJob(builder);
+        job.run(); // blocks the outer callable code for as long as the Runnable interface needs to convert
+
+
+// Or run a two-pass encode (which is slower at the cost of better quality)
+//        executor.createTwoPassJob(builder).run();
+        return outputFile;
+    }                                                             
+}
+
+```
 
