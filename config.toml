@@ -74,6 +74,6 @@ googleAnalitycsID = "Your ID"
   formAction = "#" #contact form works with formspree.io
 
   [params.footer]
-  email = "info at antonioagudo com"
+  email = ""
   phone = "+49 (0) 170 1885991"
   address = "Eigelstein 57-59, 50688 Köln"

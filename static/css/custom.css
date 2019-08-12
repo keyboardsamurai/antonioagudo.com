@@ -12,61 +12,7 @@
     url('../fonts/lora-v14-latin-regular.svg#Lora') format('svg'); /* Legacy iOS */
 }
 
-/*input[type="text"], input[type="email"], input[type="url"], select, textarea {*/
-/*    width: 100%;*/
-/*    height: 25px;*/
-/*    line-height: 25px;*/
-/*    color: #333;*/
-/*    background-color: #fff;*/
-/*    border: 1px solid #236;*/
-/*    border-radius: 3px;*/
-/*    padding: 3px;*/
-/*    float: right;*/
-/*}*/
-
-/*select {*/
-/*    width: 432px;*/
-/*    height: 30px;*/
-/*}*/
-
-/*textarea {*/
-/*    height: 75px;*/
-/*    resize: none;*/
-
-/*}*/
-
-/*input, textarea, select {*/
-/*    outline: none;*/
-/*}*/
-
-/*input[type="button"], input[type="submit"], input[type="reset"] {*/
-/*    border-radius: 5px;*/
-/*    border: 0;*/
-/*    background: #235;*/
-/*    color: #eee;*/
-/*    line-height: 27px;*/
-/*    height: 30px;*/
-/*    float: right;*/
-/*    cursor: pointer;*/
-/*}*/
-
-/*input:focus {*/
-/*    background: #d7d7d7;*/
-/*    color: #000000;*/
-/*}*/
-
-/*input[type="submit"]:hover {*/
-/*    background: #69a;*/
-/*    font-weight: bold;*/
-/*}*/
-
-/*.reference-logo{*/
-/*    background-color: #960050;*/
-/*    width: 250px;*/
-/*    margin: 20px;*/
-/*}*/
-
-/* Chroma */
+/* Chroma - monokai */
 
 /* Background */ .chroma { color: #f8f8f2; background-color: #272822 }
 /* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
