@@ -1,7 +1,7 @@
 ---
 title: Home
 description: Antonio Agudo - Erfahrener freiberuflicher Full-Stack Entwickler in Köln für Java, Kotlin, Swift und NodeJS 
-images: ["/images   /sample.jpg"]
+images: ["/images/sample.jpg"]
 ---
                            
 Hi,

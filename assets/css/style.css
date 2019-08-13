@@ -801,6 +801,11 @@ blockquote {
   transform: rotate(-50deg);
 }
 
+.navbar-brand > img{
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
 .page-title-alt .bg-shape-6 {
   position: absolute;
   bottom: 100px;
