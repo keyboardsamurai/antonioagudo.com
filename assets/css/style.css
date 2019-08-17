@@ -806,6 +806,12 @@ blockquote {
   filter: invert(1);
 }
 
+@media(max-width:991px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
 .page-title-alt .bg-shape-6 {
   position: absolute;
   bottom: 100px;

@@ -89,20 +89,20 @@ education:
 service:
   enable : true
   item :
+    - title: "CTO for hire"
+      icon: "ti-vector"
+      content: "Evaluiering, Planung und Umsetzung ihrer Softwarebasierten Geschäftskonzepte. Erstellung von Software-Architekturen oder Transformation ihrer bestehenden Systeme als ihr persönlicher interims CTO."
+      highlighted: true
+
     - title : "Softwareentwicklung"
       icon : "ti-settings"
-      content : "Entwicklung von Softwareprodukten in agilen Teams, egal ob im Corporate Umfeld oder als Startup, ich kenne mich aus."
+      content : "Unterstützung der Entwicklung von Softwareprodukten als Verstärkung für ihr agiles Entwicklerteam, egal ob im Konzern-Umfeld, für Mittelständische Unternehmen oder in Startups."
       highlighted : false
 
-    - title : "CTO as a Service"
-      icon : "ti-vector"
-      content : "Evaluiering ihrer Software gestützten Geschäftskonzepte. Erstellung von Software-Architekturen oder transformation ihrer bestehenden Systeme."
-      highlighted : true
-
-    - title : "Joint ventures"
+    - title : "Auftragsentwicklung"
       icon : "ti-cloud"
-      content : "Erstellung von Produkten im revenue sharing modell."
-      highlighted : false
+      content : "Von ihrer Idee ausgehend, entwickeln wir gemeinsam ein Konzept und entwickeln iterativ ein profitables Produkt. Das Staffing und Projektmanagement kann hierbei optional vollständig oder teilweise an mich delegiert werden."
+      highlighted : true
 
 # portfolio
 portfolio:
@@ -125,7 +125,7 @@ portfolio:
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   item:
     - name : "Jesica Gomez"
       image : "images/testimonial/client-1.png"
@@ -144,7 +144,7 @@ testimonial:
 
 # client slider
 clientSlider:
-  enable : true
+  enable : false
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "#"
