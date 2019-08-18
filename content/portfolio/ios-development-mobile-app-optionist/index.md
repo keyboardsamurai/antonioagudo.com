@@ -55,9 +55,9 @@ die mobile App zu realisieren. Hierbei kamen als Entwicklungsumgebung Xcode und 
 Komponenten wurden über [Cocoapods](https://cocoapods.org/) eingebunden.     
  
 #### Video: Optionist App Walkthrough
-<div style="text-align: center;">
-    <iframe width="315" height="560" src="https://www.youtube.com/embed/1aeI1dptcxM" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<center>
+   <div class="lazyYT" data-youtube-id="1aeI1dptcxM" data-width="315" data-height="560" data-ratio="9:16">Click to play video</div>
+</center>
 
 ### RTL Hessen probiert die Optionist App aus
 <center>
