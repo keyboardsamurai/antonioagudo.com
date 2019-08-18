@@ -4,11 +4,14 @@ date: 2019-05-12T12:14:34+06:00
 description: "This is meta description."
 author : "Antonio Agudo"
 authorImage : "images/about/author.jpg"
-authorSignature : "images/about/signature.png"
 ---
+Seit 1998 bin ich in der kommerziellen Softwareentwicklung tätig und bin durch diverse Gründungs und Konzern 
+Erfahrungen in sehr unterschiedlichen Industrien erfahren.
+ 
+Mein Profil als Full-stack Entwickler deckt Backend- und Frontend-Technologien auf Mobilen-, Desktop- und 
+Web-Plattformen ab.  
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+Die Kernkompetenz die ich anbiete, ist die Strukturierung von Kundenanforderungen, 
+die Konzeptionierung und die Erstellung von einsatzreifen Softwarelösungen sowie die nachfolgenden Eingliederung in 
+den Betrieb dieser Lösung beim Kunden.
+Hierbei arbeite ich gerne zusammen mit dem Kunden in einer agilen, iterativen Arbeitsweise.

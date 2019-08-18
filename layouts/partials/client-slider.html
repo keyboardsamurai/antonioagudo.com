@@ -1,0 +1,14 @@
+<div class="client-logo-slider d-flex align-items-center">
+<!--  <div class="card-group">-->
+  {{ range .Site.Data.homepage.clientSlider.item }}
+<!--    <a href="{{ .URL }}" class="btn btn-sm btn-primary" style="width: 300px;" target="_blank">{{.name}}</a>-->
+    <div class="card">
+        <div class="card-body">
+            <a href="{{ .URL }}" class="btn btn-sm btn-primary" style="width: 300px;" target="_blank">{{.name}}</a>
+        </div>
+    </div>
+  {{ end }}
+<!--  </div>-->
+</div>
+
+

@@ -1,12 +1,12 @@
 step:
-  - title : "Research and Plan"
+  - title : "Entwickeln"
     icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Design and Develop"
+    content : "Die Entwicklung der Software erfolgt in möglichst kurzen Entwicklungszyklen. So kann schnell Kundenfeedback eingeholt werden."
+
+  - title : "Messen"
     icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Deliver"
+    content : "Erfassen von handfesten Metriken die das Produktmanagement beeinflussen können."
+
+  - title : "Lernen"
     icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Aus den Ergebnissen der gemessenen Daten wird ein besseres Kundenverständnis abgeleitet."

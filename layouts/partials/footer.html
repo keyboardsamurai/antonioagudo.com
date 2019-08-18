@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Contact Info</h2>
+        <h2 class="section-title">Kontakt</h2>
       </div>
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
@@ -37,15 +37,15 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.footer.email}}</p>
-        </div>
-        <div class="col-md-4">
+<!--        <div class="col-md-4">-->
+<!--          <h5 class="text-light">Email</h5>-->
+<!--          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.footer.email}}</p>-->
+<!--        </div>-->
+        <div class="col-md-6">
           <h5 class="text-light">Phone</h5>
           <p class="text-white paragraph-lg font-secondary">{{.Site.Params.footer.phone}}</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6 text-right">
           <h5 class="text-light">Address</h5>
           <p class="text-white paragraph-lg font-secondary">{{.Site.Params.footer.address}}</p>
         </div>
@@ -59,7 +59,7 @@
 <!-- /footer -->
 
 {{ "<!-- Google Map API -->" | safeHTML }}
-<script src="{{ .Site.Params.gmapAPI | absURL }}"></script>
+<!--<script src="{{ .Site.Params.gmapAPI | absURL }}"></script>-->
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .URL | absURL }}"></script>

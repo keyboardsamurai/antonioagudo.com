@@ -1,181 +1,186 @@
 # banner
 banner:
-  title : "Hi! Ich bin <br> Antonio <br> Software-Entwickler und Unternehmer"
+  title: "Hi! Ich bin <br> Antonio <br> Software-Entwickler und Unternehmer"
   socialLinks:
-    - icon : "ti-linkedin"
-      URL : "https://www.linkedin.com/in/antonioagudo/"
+    - icon: "ti-linkedin"
+      URL: "https://www.linkedin.com/in/antonioagudo/"
 
-    - icon : "ti-github"
-      URL : "https://github.com/keyboardsamurai/"
+    - icon: "ti-github"
+      URL: "https://github.com/keyboardsamurai/"
 
-    - icon : "ti-twitter"
-      URL : "https://twitter.com/keyboardsamurai"
+    - icon: "ti-twitter"
+      URL: "https://twitter.com/keyboardsamurai"
 
 # about
 about:
-  enable : true
-  content : "Ich bin Antonio Agudo, freiberuflicher Softwareentwickler und Unternehmer mit fast 20 Jahren Berufserfahrung.<br>Mein Ziel ist es, großartige Produkte zu entwickeln, die das Leben der Menschen zum Besseren verändern, und zu diesem Zweck mit genauso großartigen Unternehmen zu arbeiten und eigene Unternehmungen aufzubauen."
+  enable: true
+  content: "Ich bin Antonio Agudo, freiberuflicher Softwareentwickler und Unternehmer mit fast 20 Jahren Berufserfahrung.<br>Mein Ziel ist es, großartige Produkte zu entwickeln, die das Leben der Menschen zum Besseren verändern, und zu diesem Zweck mit genauso großartigen Unternehmen zu arbeiten und eigene Unternehmungen aufzubauen."
   button:
-    btnText : "Mehr"
-    URL : "/about"
+    btnText: "Mehr"
+    URL: "/about"
 
 # skill
 skill:
-  enable : true
+  enable: false
   skillbar:
-    - title : "Back-End "
-      progress : "90%"
-      color : "#fdb157"
+    - title: "Back-End "
+      progress: "100%"
+      color: "#fdb157"
 
-    - title : "Web Apps"
-      progress : "60%"
-      color : "#9473e6"
+    - title: "Web Apps"
+      progress: "100%"
+      color: "#9473e6"
 
-    - title : "iOS Apps"
-      progress : "80%"
-      color : "#bdecf6"
+    - title: "iOS Apps"
+      progress: "100%"
+      color: "#bdecf6"
 
-    - title : "Produktmanagement"
-      progress : "70%"
-      color : "#ffbcaa"
+    - title: "Projektmanagement"
+      progress: "100%"
+      color: "#ffbcaa"
 
 # experience
 experience:
-  enable : true
+  enable: true
   item:
-    - logo : "images/experience/icon-1.png"
-      title : "Software Developer"
-      company : "Authentic Software GmbH"
-      duration : "2003 - 2004"
+    - logo: "images/experience/icon-1.png"
+      title: "Software Developer"
+      company: "Authentic Software GmbH"
+      duration: "2003 - 2004"
 
-    - logo : "images/experience/icon-2.png"
-      title : "Software Developer"
-      company : "Contentteam AG"
-      duration : "2005 - 2008"
+    - logo: "images/experience/icon-2.png"
+      title: "Software Developer"
+      company: "Contentteam AG"
+      duration: "2005 - 2008"
 
-    - logo : "images/experience/icon-3.png"
-      title : "Gründer & COO"
-      company : "CloudAngels GmbH"
-      duration : "2008 - 2013"
+    - logo: "images/experience/icon-3.png"
+      title: "Gründer & COO"
+      company: "CloudAngels GmbH"
+      duration: "2008 - 2013"
 
-    - logo : "images/experience/icon-1.png"
-      title : "Unternehmer und freiberuflicher Softwareentwickler "
-      company : "Selbstständig"
-      duration : "2013 - Heute"
+    - logo: "images/experience/icon-1.png"
+      title: "Unternehmer und freiberuflicher Softwareentwickler "
+      company: "Selbstständig"
+      duration: "2013 - Heute"
 
-    - logo : "images/experience/icon-2.png"
-      title : "Gründer"
-      company : "Optionist GmbH"
-      duration : "2016 - 2017"
+    - logo: "images/experience/icon-2.png"
+      title: "Gründer"
+      company: "Optionist GmbH"
+      duration: "2016 - 2017"
 
-    - logo : "images/experience/icon-3.png"
-      title : "CTO"
-      company : "Target Risk GmbH"
-      duration : "2018"
+    - logo: "images/experience/icon-3.png"
+      title: "CTO"
+      company: "Target Risk GmbH"
+      duration: "2018"
 
 # education
 education:
-  enable : true
+  enable: true
   item:
-    - title : "Diplom im Studienfach Informatik"
-#      year : "2013"
-      academy : "Technische Hochschule Köln"
+    - title: "Diplom im Studienfach Informatik"
+      #      year : "2013"
+      academy: "Technische Hochschule Köln"
 
-    - title : "Allgemeine Hochschulreife"
-#      year : "1999"
-      academy : "Schiller Gymnasium Köln"
+#    - title: "Spring Certified Professional"
+      #      year : "1999"
+#      academy: "Pivotal Software, Inc."
+
+    - title: "Allgemeine Hochschulreife"
+      #      year : "1999"
+      academy: "Schiller Gymnasium Köln"
 
 # service
 service:
-  enable : true
-  item :
+  enable: true
+  item:
     - title: "CTO for hire"
       icon: "ti-vector"
       content: "Evaluiering, Planung und Umsetzung ihrer Softwarebasierten Geschäftskonzepte. Erstellung von Software-Architekturen oder Transformation ihrer bestehenden Systeme als ihr persönlicher interims CTO."
       highlighted: true
 
-    - title : "Softwareentwicklung"
-      icon : "ti-settings"
-      content : "Unterstützung der Entwicklung von Softwareprodukten als Verstärkung für ihr agiles Entwicklerteam, egal ob im Konzern-Umfeld, für Mittelständische Unternehmen oder in Startups."
-      highlighted : false
+    - title: "Softwareentwicklung"
+      icon: "ti-settings"
+      content: "Unterstützung der Entwicklung von Softwareprodukten als Verstärkung für ihr agiles Entwicklerteam, egal ob im Konzern-Umfeld, für Mittelständische Unternehmen oder in Startups."
+      highlighted: false
 
-    - title : "Auftragsentwicklung"
-      icon : "ti-cloud"
-      content : "Von ihrer Idee ausgehend, entwickeln wir gemeinsam ein Konzept und entwickeln iterativ ein profitables Produkt. Das Staffing und Projektmanagement kann hierbei optional vollständig oder teilweise an mich delegiert werden."
-      highlighted : true
+    - title: "Auftragsentwicklung"
+      icon: "ti-cloud"
+      content: "Entwicklung ihrer Idee oder erarbeitung einer Lösung für ihre Geschäftsnforderungen bis zur fertigen Anwendung. Hierbei wird iterativ ein profitables Produkt erstellt. Das Staffing und Projektmanagement kann hierbei optional vollständig oder teilweise delegiert werden."
+      highlighted: true
 
 # portfolio
 portfolio:
-  enable : true
+  enable: true
   item:
-    - image : "portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png"
-      projectURL : "/portfolio/ios-development-mobile-app-optionist/"
+    - image: "portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png"
+      projectURL: "/portfolio/ios-development-mobile-app-optionist/"
 
-    - image : "images/portfolio/item-2.png"
-      projectURL : "#"
+    - image: "images/portfolio/item-2.png"
+      projectURL: "#"
 
-    - image : "images/portfolio/item-3.png"
-      projectURL : "#"
+    - image: "images/portfolio/item-3.png"
+      projectURL: "#"
 
-    - image : "images/portfolio/item-4.png"
-      projectURL : "#"
-
-    - image : "images/portfolio/item-5.png"
-      projectURL : "#"
 
 # testimonial
 testimonial:
-  enable : false
+  enable: false
   item:
-    - name : "Jesica Gomez"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name: "Jesica Gomez"
+      image: "images/testimonial/client-1.png"
+      designation: "CEO, Funder"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-    - name : "Shirley Scot"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name: "Shirley Scot"
+      image: "images/testimonial/client-1.png"
+      designation: "CEO, Funder"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-    - name : "Jessica Julie"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name: "Jessica Julie"
+      image: "images/testimonial/client-1.png"
+      designation: "CEO, Funder"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 # client slider
 clientSlider:
-  enable : false
+  enable: true
   item:
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "#"
+    - name: "Rewe Digital GmbH"
+      URL: "https://www.rewe-digital.com/"
 
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "#"
+    - name: "E.ON Climate & Renewables GmbH"
+      URL: "https://www.eon.de"
 
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
+    - name: "HRS GmbH"
+      URL: "https://hrs.de"
 
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
+    - name: "Bayer AG"
+      URL: "https://www.bayer.de/"
 
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
+    - name: "Vodafone GmbH"
+      URL: "https://www.vodafone.de"
 
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "#"
+    - name: "Unitymedia GmbH"
+      URL: "https://unitymedia.de"
 
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "#"
+    - name: "PKW.de Autobörse GmbH"
+      URL: "https://www.pkw.de"
 
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
+    - name: "Acentic GmbH"
+      URL: "https://acentic.com/"
 
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
+    - name: "earthTV GmbH"
+      URL: "https://www.earthtv.com/"
 
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
+    - name: "Schlankr"
+      URL: "https://schlankr.de/"
+
+    - name: "contentteam AG"
+      URL: "http://contentteam.com/"
+
+    - name: "imageloop GmbH"
+      URL: "#"
 
 # blog
 blog:
-  enable : true
+  enable: false
