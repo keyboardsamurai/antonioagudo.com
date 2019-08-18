@@ -95,17 +95,17 @@ service:
   item:
     - title: "CTO for hire"
       icon: "ti-vector"
-      content: "Evaluiering, Planung und Umsetzung ihrer Softwarebasierten Geschäftskonzepte. Erstellung von Software-Architekturen oder Transformation ihrer bestehenden Systeme als ihr persönlicher interims CTO."
+      content: "Evaluierung, Planung und Umsetzung ihrer Softwarebasierten Geschäftskonzepte. Erstellung von Software-Architekturen oder Transformation ihrer bestehenden Systeme als ihr persönlicher Interims-CTO."
       highlighted: true
 
     - title: "Softwareentwicklung"
       icon: "ti-settings"
-      content: "Unterstützung der Entwicklung von Softwareprodukten als Verstärkung für ihr agiles Entwicklerteam, egal ob im Konzern-Umfeld, für Mittelständische Unternehmen oder in Startups."
+      content: "Unterstützung der Entwicklung von Softwareprodukten als Verstärkung für ihr agiles Entwicklerteam, egal ob im Konzern-Umfeld, für mittelständische Unternehmen oder in Startups."
       highlighted: false
 
     - title: "Auftragsentwicklung"
       icon: "ti-cloud"
-      content: "Entwicklung ihrer Idee oder erarbeitung einer Lösung für ihre Geschäftsnforderungen bis zur fertigen Anwendung. Hierbei wird iterativ ein profitables Produkt erstellt. Das Staffing und Projektmanagement kann hierbei optional vollständig oder teilweise delegiert werden."
+      content: "Entwicklung ihrer Idee oder Erarbeitung einer Lösung für ihre Geschäftsanforderungen bis zur fertigen Anwendung. Hierbei wird iterativ ein profitables Produkt erstellt. Das Staffing und Projektmanagement kann hierbei optional vollständig oder teilweise delegiert werden."
       highlighted: true
 
 # portfolio
@@ -114,12 +114,6 @@ portfolio:
   item:
     - image: "portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png"
       projectURL: "/portfolio/ios-development-mobile-app-optionist/"
-
-    - image: "images/portfolio/item-2.png"
-      projectURL: "#"
-
-    - image: "images/portfolio/item-3.png"
-      projectURL: "#"
 
 
 # testimonial
