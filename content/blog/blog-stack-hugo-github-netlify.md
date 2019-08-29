@@ -29,7 +29,7 @@ The approach to publishing, that Movable Type had was simple but effective.
 It would store all content in flat [BerkeleyDB](https://en.wikipedia.org/wiki/Berkeley_DB) files - no database system
 necessary - and when you added an article or changed the templates it would render out static HTML.
 
-<img src="/images/blog/2019/hugo.webp" align="left" style="margin: 20px;">
+<img src="/images/blog/2019/hugo.webp" align="right" style="margin: 20px;">
 Fast forward to 2013 when Steve Francia decided to build a static generator, mimicking what already worked wonders for 
 Jekyll, but using Go instead of Ruby as the codebase language. Intended for raw speed and using the much cooler Git as 
 the database to get rid of things like BerkeleyDB files, it still pretty much works as Movable Type 1.0 did.
