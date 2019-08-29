@@ -27,7 +27,11 @@ morning - metaphorically speaking of course.
 
 The approach to publishing, that Movable Type had was simple but effective.
 It would store all content in flat [BerkeleyDB](https://en.wikipedia.org/wiki/Berkeley_DB) files - no database system
-necessary - and when you added an article or changed the templates it would render out static HTML.
+necessary - and when you added an article or changed the templates it would render out HTML and save it to disk.
+ 
+The system was a tremendous success in no small part, due to its incredibly powerful static HTML generator. 
+Sites created with Movable Type did not need lots of CPU time, nearly all load was I/O bound instead. 
+It takes a good amount of load to saturate such a system, before performance deteriorates.
 
 <img src="/images/blog/2019/hugo.webp" align="right" style="margin: 20px;">
 Fast forward to 2013 when Steve Francia decided to build a static generator, mimicking what already worked wonders for 
