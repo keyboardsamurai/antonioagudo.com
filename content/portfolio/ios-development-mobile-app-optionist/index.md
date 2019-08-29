@@ -2,6 +2,7 @@
 title: Optionist App - Entwicklung für iPhone und iPad 
 description: iPhone entwicklung einer mobilen Anwendung zur Freizeitgestaltung  
 date: "2019-07-26T17:26:45+02:00"
+Author: Antonio Agudo
 jobDate: 2016
 work: [startup, programming, mobile, ios]
 techs: [java, dropwizard, objective-c, swift]
