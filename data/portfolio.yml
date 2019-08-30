@@ -8,7 +8,7 @@ list:
 
 # portfolio item
 item:
-  - image : "/portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png"
+  - image : "/portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.webp"
     projectURL : "/portfolio/ios-development-mobile-app-optionist/"
     projectType:
       - type: "development"
