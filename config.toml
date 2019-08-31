@@ -63,7 +63,7 @@ pygmentsstyle = "monokai"
 logo = "images/logo.png"
 home = "Start"
 # Meta data
-description = "Antonio Agudo - Exptertise in Softwareentwicklung für Konzerne und Startups"
+description = "Antonio Agudo - Expertise in Softwareentwicklung für Konzerne, KMUs und Startups"
 author = "Antonio Agudo"
 # Google Analitycs
 googleAnalitycsID = "UA-146602965-1"

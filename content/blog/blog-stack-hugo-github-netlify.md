@@ -1,7 +1,7 @@
 ---
 title: "My blog stack - a static site with github, hugo and netlify"
 date: 2019-08-29T19:08:34+02:00
-image: "images/blog/post-1-blogging.webp"
+image: "images/blog/2019/post-1-blogging.webp"
 description: "Where I describe how I came to use hugo and tell all about my life long love affair with Perl based content management systems"
 author: "Antonio Agudo"
 type: "post"
