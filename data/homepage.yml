@@ -140,39 +140,51 @@ clientSlider:
   enable: true
   item:
     - name: "Rewe Digital GmbH"
+      logo: "/images/referenzen/rewe_digital_logo.jpg"
       URL: "https://www.rewe-digital.com/"
 
     - name: "E.ON Climate & Renewables GmbH"
+      logo: "/images/referenzen/eon_logo.jpg"
       URL: "https://www.eon.de"
 
     - name: "HRS GmbH"
+      logo: "/images/referenzen/hrs_logo.png"
       URL: "https://hrs.de"
 
     - name: "Bayer AG"
+      logo: "/images/referenzen/bayer_logo.jpg"
       URL: "https://www.bayer.de/"
 
     - name: "Vodafone GmbH"
+      logo: "/images/referenzen/vodafone_logo.png"
       URL: "https://www.vodafone.de"
 
     - name: "Unitymedia GmbH"
+      logo: "/images/referenzen/unitymedia_logo.jpg"
       URL: "https://unitymedia.de"
 
     - name: "PKW.de Autobörse GmbH"
+      logo: "/images/referenzen/pkw_de_logo.png"
       URL: "https://www.pkw.de"
 
     - name: "Acentic GmbH"
+      logo: "/images/referenzen/acentic_logo.jpg"
       URL: "https://acentic.com/"
 
     - name: "earthTV GmbH"
+      logo: "/images/referenzen/earthtv_logo.png"
       URL: "https://www.earthtv.com/"
 
     - name: "Schlankr"
+      logo: "/images/referenzen/schlankr_logo.png"
       URL: "https://schlankr.de/"
 
     - name: "contentteam AG"
+      logo: "/images/referenzen/contentteam_logo.jpg"
       URL: "http://contentteam.com/"
 
     - name: "imageloop GmbH"
+      logo: "/images/referenzen/imageloop_logo.jpg"
       URL: "#"
 
 # blog
