@@ -22,8 +22,8 @@ pygmentsstyle = "monokai"
 
 
   # JS Plugins
-  [[params.plugins.js]]
-  URL = "https://cdn.polyfill.io/v2/polyfill.min.js"
+#  [[params.plugins.js]]
+#  URL = "https://cdn.polyfill.io/v2/polyfill.min.js"
   [[params.plugins.js]]
   URL = "plugins/libwebp/polyfills.js"
   [[params.plugins.js]]
