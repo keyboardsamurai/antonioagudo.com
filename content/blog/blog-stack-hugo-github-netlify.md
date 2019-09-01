@@ -1,7 +1,7 @@
 ---
 title: "My blog stack - a static site with github, hugo and netlify"
 date: 2019-08-29T19:08:34+02:00
-image: "images/blog/2019/post-1-blogging.jpg"
+image: "images/blog/2019/post-1-blogging.webp"
 description: "Where I describe how I came to use hugo and tell all about my life long love affair with Perl based content management systems"
 author: "Antonio Agudo"
 type: "post"
@@ -33,7 +33,7 @@ The system was a tremendous success in no small part, due to its incredibly powe
 Sites created with Movable Type did not need lots of CPU time, nearly all load was I/O bound instead. 
 It takes a good amount of load to saturate such a system, before performance deteriorates.
 
-<img src="/images/blog/2019/hugo.png" align="right" style="margin: 20px;">
+<img src="/images/blog/2019/hugo.webp" align="right" style="margin: 20px;">
 Fast forward to 2013 when Steve Francia decided to build a static generator, mimicking what already worked wonders for 
 Jekyll, but using Go instead of Ruby as the codebase language. Intended for raw speed and using the much cooler Git as 
 the database to get rid of things like BerkeleyDB files, it still pretty much works as Movable Type 1.0 did.
