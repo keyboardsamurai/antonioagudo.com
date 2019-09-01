@@ -1,12 +1,12 @@
 member:
   - title : "Jack Schenziwe"
-    image : "images/team/member-1.png"
+    image : "images/team/member-1.webp"
     designation : "Project Manager"
-    
+
   - title : "Julias Carlie"
-    image : "images/team/member-2.png"
+    image : "images/team/member-2.webp"
     designation : "Web Developer"
-    
+
   - title : "John Doe"
-    image : "images/team/member-3.png"
+    image : "images/team/member-3.webp"
     designation : "Designer"

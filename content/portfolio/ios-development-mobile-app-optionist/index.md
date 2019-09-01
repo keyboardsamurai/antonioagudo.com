@@ -6,13 +6,13 @@ Author: Antonio Agudo
 jobDate: 2016
 work: [startup, programming, mobile, ios]
 techs: [java, dropwizard, objective-c, swift]
-Image: /portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png
-thumbnail: /portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png
+Image: /portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.webp
+thumbnail: /portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.webp
 projectUrl: 
 testimonial:
   name: RTL Hessen 
   role: Redaktion Hessen lokal
-  image: ios-development-mobile-app-optionist/rtl-hessen-logo.png 
+  image: ios-development-mobile-app-optionist/rtl-hessen-logo.webp 
   text: "Thema: Langeweile in der Freizeit? Die Optionist App hilft mit kreativen Aktionen. Wurde auf RTL Hessen ausgestrahlt am Montag 26 September 2016, 18:00 Uhr."   
 ---
 ### Motivation
@@ -24,7 +24,7 @@ solcher Alltagsabenteuer in einer [Gamification](https://de.wikipedia.org/wiki/G
 Ein integriertes Social network sorgte zusätzlich dafür, dass sich die Benutzer der App auch untereinander austauschen 
 konnten.
 <div style="text-align: center;">
-![Das Splashscreen Logo der Optionist App: Make life your playground](/portfolio/ios-development-mobile-app-optionist/optionist-playground-logo.jpg)
+![Das Splashscreen Logo der Optionist App: Make life your playground](/portfolio/ios-development-mobile-app-optionist/optionist-playground-logo.webp)
 </div>
 
 Sämtliche Entwicklunsgarbeit wurde hierbei von mir als alleinigem Entwickler vorgenommen. Marketing und Redaktion 
@@ -62,9 +62,9 @@ Komponenten wurden über [Cocoapods](https://cocoapods.org/) eingebunden.
 
 ### RTL Hessen probiert die Optionist App aus
 <center>
-{{<figure src="/portfolio/ios-development-mobile-app-optionist/rtl-hessen-berichtet-ueber-die-optionist-app.jpg">}}
+{{<figure src="/portfolio/ios-development-mobile-app-optionist/rtl-hessen-berichtet-ueber-die-optionist-app.webp">}}
 
 *Thema: Langeweile in der Freizeit? Die Optionist App hilft mit kreativen Aktionen. Wurde auf RTL Hessen ausgestrahlt am Montag 26 September 2016, 18:00 Uhr.*
 
-<img class="img-fluid w-25 rounded-circle border-thick border-light" src="https://festive-jackson-9ed7d0.netlify.com/portfolio/ios-development-mobile-app-optionist/rtl-hessen-logo.png" alt="RTL Hessen" title="RTL Hessen">
+<img class="img-fluid w-25 rounded-circle border-thick border-light" src="/portfolio/ios-development-mobile-app-optionist/rtl-hessen-logo.webp" alt="RTL Hessen" title="RTL Hessen">
 </center>

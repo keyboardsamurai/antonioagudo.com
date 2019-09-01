@@ -1,12 +1,12 @@
 step:
   - title : "Entwickeln"
-    icon : "images/icons/plan.png"
+    icon : "images/icons/plan.webp"
     content : "Die Entwicklung der Software erfolgt in möglichst kurzen Entwicklungszyklen. So kann schnell Kundenfeedback eingeholt werden."
 
   - title : "Messen"
-    icon : "images/icons/design.png"
+    icon : "images/icons/design.webp"
     content : "Erfassen von handfesten Metriken die das Produktmanagement beeinflussen können."
 
   - title : "Lernen"
-    icon : "images/icons/print.png"
+    icon : "images/icons/print.webp"
     content : "Aus den Ergebnissen der gemessenen Daten wird ein besseres Kundenverständnis abgeleitet."

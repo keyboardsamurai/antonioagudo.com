@@ -1,7 +1,7 @@
 ---
 title: Home
 description: Antonio Agudo - Erfahrener freiberuflicher Full-Stack Entwickler in Köln für Java, Kotlin, Swift und NodeJS 
-images: ["/images/sample.jpg"]
+images: ["/images/sample.webp"]
 ---
                            
 Hi,
@@ -21,7 +21,7 @@ Ich spreche fließend Deutsch, Englisch und Spanisch.
 
 * * *
 
-<img src="/images/build-measure-earn.jpg" class="article-header-image">
+<img src="/images/build-measure-earn.webp" class="article-header-image">
 
 Ich bin Full-stack Entwickler und beherrsche Backend- und Frontend-Technologien 
 auf Mobilen-, Desktop- und Web-Plattformen.  
@@ -112,39 +112,39 @@ Für diese Firmen habe ich unter anderem bislang erfolgreich Projekte durchgefü
 
 <center>
     <div class="reference-mobile-container">
-        <img src="/images/referenzen/rewe_digital_logo.jpg">
-        <img src="/images/referenzen/eon_logo.jpg">
-        <img src="/images/referenzen/hrs_logo.png">        
-        <img src="/images/referenzen/bayer_logo.jpg">
-        <img src="/images/referenzen/vodafone_logo.png">
-        <img src="/images/referenzen/pkw_de_logo.png">
-        <img src="/images/referenzen/acentic_logo.jpg">
-        <img src="/images/referenzen/schlankr_logo.png">
-        <img src="/images/referenzen/unitymedia_logo.jpg">
-        <img src="/images/referenzen/contentteam_logo.jpg">
-        <img src="/images/referenzen/earthtv_logo.png">
-        <img src="/images/referenzen/imageloop_logo.jpg">
+        <img src="/images/referenzen/rewe_digital_logo.webp">
+        <img src="/images/referenzen/eon_logo.webp">
+        <img src="/images/referenzen/hrs_logo.webp">        
+        <img src="/images/referenzen/bayer_logo.webp">
+        <img src="/images/referenzen/vodafone_logo.webp">
+        <img src="/images/referenzen/pkw_de_logo.webp">
+        <img src="/images/referenzen/acentic_logo.webp">
+        <img src="/images/referenzen/schlankr_logo.webp">
+        <img src="/images/referenzen/unitymedia_logo.webp">
+        <img src="/images/referenzen/contentteam_logo.webp">
+        <img src="/images/referenzen/earthtv_logo.webp">
+        <img src="/images/referenzen/imageloop_logo.webp">
     </div>
 </center>
 
 <div class="reference-container">
-    <img src="/images/referenzen/rewe_digital_logo.jpg">
-    <img src="/images/referenzen/eon_logo.jpg">
-    <img src="/images/referenzen/hrs_logo.png">        
+    <img src="/images/referenzen/rewe_digital_logo.webp">
+    <img src="/images/referenzen/eon_logo.webp">
+    <img src="/images/referenzen/hrs_logo.webp">        
 </div>
 <div class="reference-container">
-    <img src="/images/referenzen/bayer_logo.jpg">
-    <img src="/images/referenzen/vodafone_logo.png">
-    <img src="/images/referenzen/unitymedia_logo.jpg">
+    <img src="/images/referenzen/bayer_logo.webp">
+    <img src="/images/referenzen/vodafone_logo.webp">
+    <img src="/images/referenzen/unitymedia_logo.webp">
 </div>
 <div class="reference-container">
-    <img src="/images/referenzen/pkw_de_logo.png">
-    <img src="/images/referenzen/acentic_logo.jpg">
-    <img src="/images/referenzen/schlankr_logo.png">
+    <img src="/images/referenzen/pkw_de_logo.webp">
+    <img src="/images/referenzen/acentic_logo.webp">
+    <img src="/images/referenzen/schlankr_logo.webp">
 </div>                       
 <div class="reference-container">
-    <img src="/images/referenzen/contentteam_logo.jpg">
-    <img src="/images/referenzen/earthtv_logo.png">
-    <img src="/images/referenzen/imageloop_logo.jpg">
+    <img src="/images/referenzen/contentteam_logo.webp">
+    <img src="/images/referenzen/earthtv_logo.webp">
+    <img src="/images/referenzen/imageloop_logo.webp">
 </div>
 

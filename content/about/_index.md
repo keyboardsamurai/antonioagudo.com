@@ -3,7 +3,7 @@ title: "About"
 date: 2019-05-12T12:14:34+06:00
 description: "This is meta description."
 author : "Antonio Agudo"
-authorImage : "images/about/author.jpg"
+authorImage : "images/about/author.webp"
 ---
 Seit 1998 bin ich in der kommerziellen Softwareentwicklung tätig und bin durch diverse Gründungs und Konzern 
 Erfahrungen in sehr unterschiedlichen Industrien erfahren.

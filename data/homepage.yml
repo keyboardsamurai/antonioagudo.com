@@ -43,32 +43,32 @@ skill:
 experience:
   enable: true
   item:
-    - logo: "images/experience/icon-1.png"
+    - logo: "images/experience/icon-1.webp"
       title: "Software Developer"
       company: "Authentic Software GmbH"
       duration: "2003 - 2004"
 
-    - logo: "images/experience/icon-2.png"
+    - logo: "images/experience/icon-2.webp"
       title: "Software Developer"
       company: "Contentteam AG"
       duration: "2005 - 2008"
 
-    - logo: "images/experience/icon-3.png"
+    - logo: "images/experience/icon-3.webp"
       title: "Gründer & COO"
       company: "CloudAngels GmbH"
       duration: "2008 - 2013"
 
-    - logo: "images/experience/icon-1.png"
+    - logo: "images/experience/icon-1.webp"
       title: "Unternehmer und freiberuflicher Softwareentwickler "
       company: "Selbstständig"
       duration: "2013 - Heute"
 
-    - logo: "images/experience/icon-2.png"
+    - logo: "images/experience/icon-2.webp"
       title: "Gründer"
       company: "Optionist GmbH"
       duration: "2016 - 2017"
 
-    - logo: "images/experience/icon-3.png"
+    - logo: "images/experience/icon-3.webp"
       title: "CTO"
       company: "Target Risk GmbH"
       duration: "2018"
@@ -112,7 +112,7 @@ service:
 portfolio:
   enable: true
   item:
-    - image: "portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png"
+    - image: "portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.webp"
       projectURL: "/portfolio/ios-development-mobile-app-optionist/"
 
 
@@ -121,17 +121,17 @@ testimonial:
   enable: false
   item:
     - name: "Jesica Gomez"
-      image: "images/testimonial/client-1.png"
+      image: "images/testimonial/client-1.webp"
       designation: "CEO, Funder"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
     - name: "Shirley Scot"
-      image: "images/testimonial/client-1.png"
+      image: "images/testimonial/client-1.webp"
       designation: "CEO, Funder"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
     - name: "Jessica Julie"
-      image: "images/testimonial/client-1.png"
+      image: "images/testimonial/client-1.webp"
       designation: "CEO, Funder"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
@@ -140,51 +140,51 @@ clientSlider:
   enable: true
   item:
     - name: "Rewe Digital GmbH"
-      logo: "/images/referenzen/rewe_digital_logo.jpg"
+      logo: "/images/referenzen/rewe_digital_logo.webp"
       URL: "https://www.rewe-digital.com/"
 
     - name: "E.ON Climate & Renewables GmbH"
-      logo: "/images/referenzen/eon_logo.jpg"
+      logo: "/images/referenzen/eon_logo.webp"
       URL: "https://www.eon.de"
 
     - name: "HRS GmbH"
-      logo: "/images/referenzen/hrs_logo.png"
+      logo: "/images/referenzen/hrs_logo.webp"
       URL: "https://hrs.de"
 
     - name: "Bayer AG"
-      logo: "/images/referenzen/bayer_logo.jpg"
+      logo: "/images/referenzen/bayer_logo.webp"
       URL: "https://www.bayer.de/"
 
     - name: "Vodafone GmbH"
-      logo: "/images/referenzen/vodafone_logo.png"
+      logo: "/images/referenzen/vodafone_logo.webp"
       URL: "https://www.vodafone.de"
 
     - name: "Unitymedia GmbH"
-      logo: "/images/referenzen/unitymedia_logo.jpg"
+      logo: "/images/referenzen/unitymedia_logo.webp"
       URL: "https://unitymedia.de"
 
     - name: "PKW.de Autobörse GmbH"
-      logo: "/images/referenzen/pkw_de_logo.png"
+      logo: "/images/referenzen/pkw_de_logo.webp"
       URL: "https://www.pkw.de"
 
     - name: "Acentic GmbH"
-      logo: "/images/referenzen/acentic_logo.jpg"
+      logo: "/images/referenzen/acentic_logo.webp"
       URL: "https://acentic.com/"
 
     - name: "earthTV GmbH"
-      logo: "/images/referenzen/earthtv_logo.png"
+      logo: "/images/referenzen/earthtv_logo.webp"
       URL: "https://www.earthtv.com/"
 
     - name: "Schlankr"
-      logo: "/images/referenzen/schlankr_logo.png"
+      logo: "/images/referenzen/schlankr_logo.webp"
       URL: "https://schlankr.de/"
 
     - name: "contentteam AG"
-      logo: "/images/referenzen/contentteam_logo.jpg"
+      logo: "/images/referenzen/contentteam_logo.webp"
       URL: "http://contentteam.com/"
 
     - name: "imageloop GmbH"
-      logo: "/images/referenzen/imageloop_logo.jpg"
+      logo: "/images/referenzen/imageloop_logo.webp"
       URL: "#"
 
 # blog
