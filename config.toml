@@ -23,6 +23,8 @@ pygmentsstyle = "monokai"
 
   # JS Plugins
   [[params.plugins.js]]
+  URL = "https://cdn.polyfill.io/v2/polyfill.min.js"
+  [[params.plugins.js]]
   URL = "plugins/libwebp/polyfills.js"
   [[params.plugins.js]]
   URL = "plugins/libwebp/webp-hero.bundle.js"
@@ -64,7 +66,7 @@ pygmentsstyle = "monokai"
 
 
 [params]
-logo = "images/logo.png"
+logo = "images/logo.webp"
 home = "Start"
 # Meta data
 description = "Antonio Agudo - Expertise in Softwareentwicklung für Konzerne, KMUs und Startups"
