@@ -6,8 +6,8 @@ Author: Antonio Agudo
 jobDate: 2016
 work: [startup, programming, mobile, ios]
 techs: [java, dropwizard, objective-c, swift]
-Image: /portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.webp
-thumbnail: /portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.webp
+Image: /portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png
+thumbnail: /portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png
 projectUrl: 
 testimonial:
   name: RTL Hessen 

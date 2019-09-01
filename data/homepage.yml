@@ -112,7 +112,7 @@ service:
 portfolio:
   enable: true
   item:
-    - image: "portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.webp"
+    - image: "portfolio/ios-development-mobile-app-optionist/optionist_app_highlights_m.png"
       projectURL: "/portfolio/ios-development-mobile-app-optionist/"
 
 
