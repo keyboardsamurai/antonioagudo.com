@@ -41,3 +41,84 @@ the database to get rid of things like BerkeleyDB files, it still pretty much wo
 Well, maybe Movable Type 1.0 on steroids. Since Git hooks make for a nice integration surface and the general 
 ecosystem is much more mature than what was available back then. Also, there are cool services, like Netlify who do an 
 awesome job of hosting your website.  
+
+## Customizing the hugo template
+
+Of course you will want to customize the theme you picked out for your website. Never make the mistake of editing the 
+theme directly from it's directory in ```/themes```. Instead just copy the template files to the layouts folder and 
+make use of the [hugo file lookup mechanism](https://gohugo.io/templates/lookup-order/). 
+
+Just to make sure you don't accidentally modify a file inside the ```/templates``` folder it's a good idea to set read 
+only flags on the whole directory. Just do ```chmod -R 555 themes/theme-name```  
+
+### Let's Optimize
+
+I like to optimize my websites quite a bit before letting google index them. Not only will those optimized pages rank 
+better, people will also be thankful that you didn't waste their time with endlessly loading websites. 
+[Google's pagespeed tool](https://developers.google.com/speed/pagespeed/insights/) makes it really easy to cover most of
+he big issues that can cost you users because your website is too slow for whatever reason. 
+
+### Converting images to WebP
+A big chunk of load time routinely falls to image size. This is a low hanging fruit. Just use mod_pagespeed on nginx and 
+let it take care of things, right? Well - not in this case. Hosting the site on netlify means top notch infrastructure, 
+but no choice in servers. 
+
+For the sake of absolutely best compression I will use webp. Why? Well for one, because it's freakishly small file format.
+But also, because it makes google happy. So on a mac you can just use ```brew install cwebp``` 
+on linux you do ```apt-get install cwebp``` to install the handy converter utility and then you navigate to your hugo 
+site root, make sure all files are backed up or better yet, checked into git - just in case disaster strikes.
+
+Now you can run a recursive conversion task on all PNG or JPG images and turn them into WebP images with a default 
+compression quality of 75 while preserving the alpha channel. 
+
+```shell script
+find ./ \( -name "*.png" -o -name "*.jpg" \) -exec cwebp -q 75 {} -o {}.webp \;                 
+```
+
+That way you easily save 40% or more in file size, depending on how well your files were optimized initially.
+
+Now let's rename all those ```.png.webp``` or ```.jpg.webp``` images to just ```.webp``` file extensions. 
+
+```shell script
+find . -name "*.png.webp" -exec bash -c 'mv "$1" "${1%.png.webp}".webp' - '{}' \;                 
+find . -name "*.jpg.webp" -exec bash -c 'mv "$1" "${1%.jpg.webp}".webp' - '{}' \;                 
+```                     
+
+And then you will have to replace all images in your template inside your ```layouts/``` folder.
+
+#### Troubleshooting browser compatibility issues
+
+Take a look at your site in Chrome. Looks smashing!<br>
+Now look at it again in Safari. On your iPhone/iPad. On IE11. Where do those broken images come from? Not that great, right?
+
+Welcome to image format hell. We decided we'd go with a modern format, but there are [quite a number of browsers
+out there](https://caniuse.com/#feat=webp) that are, well, not that modern for one reason or the other.
+
+You have two choices here. Either you provide those older browsers with a fallback image (i.e. the original image format
+PNG or JPG) or you teach those olden browsers how to properly display WebP by ways of using a polyfill.
+
+I will do the latter. By compiling the ES6 based [webp-hero](https://github.com/chase-moskal/webp-hero) library to 
+common javascript like so:
+
+```shell script
+git clone https://github.com/chase-moskal/webp-hero.git
+cd webp-hero
+npm install
+npm run build
+cp -r dist-cjs/ ~/myhugosite/static/js/libwebp
+```
+
+and initializing them in your footer like so
+
+```html
+<script src="/js/polyfills.js"></script>
+<script src="/js/webp-hero.bundle.js"></script>
+<script>
+  var webpMachine = new webpHero.WebpMachine()
+  webpMachine.polyfillDocument()
+</script>    
+```
+
+Now all old browsers will be able to see your WebP images as well. Of course this approach has some obvious drawbacks:
+We incur a performance hit on older browsers and a couple of requests in order to save on image size. On image heavy 
+sites this might be worth it though. 
