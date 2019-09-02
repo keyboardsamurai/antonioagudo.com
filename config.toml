@@ -72,7 +72,7 @@ home = "Start"
 description = "Antonio Agudo - Expertise in Softwareentwicklung für Konzerne, KMUs und Startups"
 author = "Antonio Agudo"
 # Google Analitycs
-googleAnalitycsID = "UA-146602965-1"
+#googleAnalitycsID = "UA-146602965-1"
 
   # Preloader
   [params.preloader]
