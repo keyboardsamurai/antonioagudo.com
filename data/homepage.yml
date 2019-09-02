@@ -39,6 +39,26 @@ skill:
       progress: "100%"
       color: "#ffbcaa"
 
+
+# service
+service:
+  enable: true
+  item:
+    - title: "CTO for hire"
+      icon: "ti-vector"
+      content: "Evaluierung, Planung und Umsetzung ihrer Softwarebasierten Geschäftskonzepte. Erstellung von Software-Architekturen oder Transformation ihrer bestehenden Systeme als ihr persönlicher Interims-CTO."
+      highlighted: true
+
+    - title: "Softwareentwicklung"
+      icon: "ti-settings"
+      content: "Unterstützung der Entwicklung von Softwareprodukten als Verstärkung für ihr agiles Entwicklerteam, egal ob im Konzern-Umfeld, für mittelständische Unternehmen oder in Startups."
+      highlighted: false
+
+    - title: "Auftragsentwicklung"
+      icon: "ti-cloud"
+      content: "Entwicklung ihrer Idee oder Erarbeitung einer Lösung für ihre Geschäftsanforderungen bis zur fertigen Anwendung. Hierbei wird iterativ ein profitables Produkt erstellt. Das Staffing und Projektmanagement kann hierbei optional vollständig oder teilweise delegiert werden."
+      highlighted: true
+
 # experience
 experience:
   enable: true
@@ -88,25 +108,6 @@ education:
     - title: "Allgemeine Hochschulreife"
       #      year : "1999"
       academy: "Schiller Gymnasium Köln"
-
-# service
-service:
-  enable: true
-  item:
-    - title: "CTO for hire"
-      icon: "ti-vector"
-      content: "Evaluierung, Planung und Umsetzung ihrer Softwarebasierten Geschäftskonzepte. Erstellung von Software-Architekturen oder Transformation ihrer bestehenden Systeme als ihr persönlicher Interims-CTO."
-      highlighted: true
-
-    - title: "Softwareentwicklung"
-      icon: "ti-settings"
-      content: "Unterstützung der Entwicklung von Softwareprodukten als Verstärkung für ihr agiles Entwicklerteam, egal ob im Konzern-Umfeld, für mittelständische Unternehmen oder in Startups."
-      highlighted: false
-
-    - title: "Auftragsentwicklung"
-      icon: "ti-cloud"
-      content: "Entwicklung ihrer Idee oder Erarbeitung einer Lösung für ihre Geschäftsanforderungen bis zur fertigen Anwendung. Hierbei wird iterativ ein profitables Produkt erstellt. Das Staffing und Projektmanagement kann hierbei optional vollständig oder teilweise delegiert werden."
-      highlighted: true
 
 # portfolio
 portfolio:
