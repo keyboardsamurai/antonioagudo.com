@@ -1,5 +1,5 @@
 ---
-title: "My blog stack - a static site with github, hugo and netlify"
+title: "My blog stack - building a blazing fast static site with Github, Hugo, and Netlify"
 date: 2019-08-29T19:08:34+02:00
 image: "images/blog/2019/post-1-blogging.webp"
 description: "Where I describe how I came to use hugo and tell all about my life long love affair with Perl based content management systems"
@@ -9,8 +9,8 @@ type: "post"
 It's been quite a while since I last blogged, though it's something I enjoy. 
 Part of the reason for this current iteration of my website is so I could blog more regularly again.
 I know, all the cool kids now go to Facebook or Instagram or Tiktok to entertain themselves, but still - 
-a blog is the place to go to if you to explain ideas in depth. And although it is tempting to just use medium.com these 
-days to gain more reach you ultimately don't own the reach nor the platform.
+a blog is the place to go to if you want to explain ideas in depth. And although it is tempting to just use medium.com 
+these days to gain more reach you ultimately don't own the reach nor the platform.
 So I searched around for a good solution and found [Hugo](https://gohugo.io/)
 
 #### Why use a static generator when we have Wordpress&trade;?  
@@ -31,7 +31,7 @@ necessary - and when you added an article or changed the templates it would rend
  
 The system was a tremendous success in no small part, due to its incredibly powerful static HTML generator. 
 Sites created with Movable Type did not need lots of CPU time, nearly all load was I/O bound instead. 
-It takes a good amount of load to saturate such a system, before performance deteriorates.
+It takes a good amount of load to saturate such a system before performance deteriorates.
 
 <img src="/images/blog/2019/hugo.webp" align="right" style="margin: 20px;">
 Fast forward to 2013 when Steve Francia decided to build a static generator, mimicking what already worked wonders for 
@@ -42,30 +42,30 @@ Well, maybe Movable Type 1.0 on steroids. Since Git hooks make for a nice integr
 ecosystem is much more mature than what was available back then. Also, there are cool services, like Netlify who do an 
 awesome job of hosting your website.  
 
-## Customizing the hugo template
+## Customizing the Hugo template
 
-Of course you will want to customize the theme you picked out for your website. Never make the mistake of editing the 
-theme directly from it's directory in ```/themes```. Instead just copy the template files to the layouts folder and 
-make use of the [hugo file lookup mechanism](https://gohugo.io/templates/lookup-order/). 
+Of course, you will want to customize the theme you picked out for your website. Never make the mistake of editing the 
+theme directly from its directory in ```/themes```. Instead, just copy the template files to the layouts folder and 
+make use of the [Hugo file lookup mechanism](https://gohugo.io/templates/lookup-order/). 
 
-Just to make sure you don't accidentally modify a file inside the ```/templates``` folder it's a good idea to set read 
-only flags on the whole directory. Just do ```chmod -R 555 themes/theme-name```  
+Just to make sure you don't accidentally modify a file inside the ```/themes``` folder it's a good idea to set read-only
+flags on the whole directory. Just do ```chmod -R 555 themes/theme-name```  
 
 ### Let's Optimize
 
-I like to optimize my websites quite a bit before letting google index them. Not only will those optimized pages rank 
-better, people will also be thankful that you didn't waste their time with endlessly loading websites. 
-[Google's pagespeed tool](https://developers.google.com/speed/pagespeed/insights/) makes it really easy to cover most of
-he big issues that can cost you users because your website is too slow for whatever reason. 
+I like to optimize my websites for speed quite a bit, because I like to believe people will also be thankful that you 
+didn't waste their time with endlessly loading websites. 
+[Google's pagespeed tool](https://developers.google.com/speed/pagespeed/insights/) makes it easy to cover most of
+the big issues that can cost you visitors because your website is too slow for whatever reason. 
 
 ### Converting images to WebP
 A big chunk of load time routinely falls to image size. This is a low hanging fruit. Just use mod_pagespeed on nginx and 
-let it take care of things, right? Well - not in this case. Hosting the site on netlify means top notch infrastructure, 
+let it take care of things, right? Well - not in this case. Hosting the site on Netlify means top-notch infrastructure, 
 but no choice in servers. 
 
-For the sake of absolutely best compression I will use webp. Why? Well for one, because it's freakishly small file format.
-But also, because it makes google happy. So on a mac you can just use ```brew install cwebp``` 
-on linux you do ```apt-get install cwebp``` to install the handy converter utility and then you navigate to your hugo 
+For the sake of absolutely best compression, I will use WebP. Why? Well for one, because it's freakishly small file format.
+But also, because it makes Google happy. So on a Mac you can use ```brew install cwebp``` 
+on Linux you do ```apt-get install cwebp``` to install the handy converter utility and then you navigate to your Hugo 
 site root, make sure all files are backed up or better yet, checked into git - just in case disaster strikes.
 
 Now you can run a recursive conversion task on all PNG or JPG images and turn them into WebP images with a default 
@@ -111,14 +111,14 @@ cp -r dist-cjs/ ~/myhugosite/static/js/libwebp
 and initializing them in your footer like so
 
 ```html
-<script src="/js/polyfills.js"></script>
-<script src="/js/webp-hero.bundle.js"></script>
+<script src="/js/libwebp/polyfills.js"></script>
+<script src="/js/libwebp/webp-hero.bundle.js"></script>
 <script>
   var webpMachine = new webpHero.WebpMachine()
   webpMachine.polyfillDocument()
 </script>    
 ```
 
-Now all old browsers will be able to see your WebP images as well. Of course this approach has some obvious drawbacks:
-We incur a performance hit on older browsers and a couple of requests in order to save on image size. On image heavy 
+Now all old browsers will be able to see your WebP images as well. Of course, this approach has some obvious drawbacks:
+We incur a performance hit on older browsers and a couple of JS requests to save on image size. On image-heavy 
 sites this might be worth it though. 
