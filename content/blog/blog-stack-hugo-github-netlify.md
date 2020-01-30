@@ -63,7 +63,7 @@ A big chunk of load time routinely falls to image size. This is a low hanging fr
 let it take care of things, right? Well - not in this case. Hosting the site on Netlify means top-notch infrastructure, 
 but no choice in servers. 
 
-For the sake of absolutely best compression, I will use WebP. Why? Well for one, because it's freakishly small file format.
+For the sake of using the absolutely best compression available, I will use WebP. Why? Well for one, because it's a freakishly small file format.
 But also, because it makes Google happy. So on a Mac you can use ```brew install cwebp``` 
 on Linux you do ```apt-get install cwebp``` to install the handy converter utility and then you navigate to your Hugo 
 site root, make sure all files are backed up or better yet, checked into git - just in case disaster strikes.

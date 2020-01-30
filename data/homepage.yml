@@ -119,22 +119,12 @@ portfolio:
 
 # testimonial
 testimonial:
-  enable: false
+  enable: true
   item:
-    - name: "Jesica Gomez"
-      image: "images/testimonial/client-1.webp"
-      designation: "CEO, Funder"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-    - name: "Shirley Scot"
-      image: "images/testimonial/client-1.webp"
-      designation: "CEO, Funder"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-    - name: "Jessica Julie"
-      image: "images/testimonial/client-1.webp"
-      designation: "CEO, Funder"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name: "Lars Mahnkopf"
+      image: "/images/referenzen/amadeus_logo.webp"
+      designation: "Product Owner, Amadeus Leisure IT"
+      content: "Antonio ist einer der engagiertesten Freiberufler, mit denen ich gearbeitet habe. Die Kommunikation ist stets unkompliziert. Er hat unsere Bedürfnisse & Erwartungen perfekt verstanden und auf kreative und effektive Art und Weise umgesetzt. Antonio hat ein ausgeprägtes Verständnis für die aktuellen 'best practices' in der Softwareentwicklung und ist besonders vertraut mit der Planung und Entwicklung von Microservices. Er war eine wertvolle Ergänzung für unser Team. Potentiellen Kunden die mit ihm zusammenarbeiten möchten, kann ich ihn nur wärmstens empfehlen."
 
 # client slider
 clientSlider:
@@ -143,6 +133,10 @@ clientSlider:
     - name: "Rewe Digital GmbH"
       logo: "/images/referenzen/rewe_digital_logo.webp"
       URL: "https://www.rewe-digital.com/"
+
+    - name: "Amadeus Leisure IT GmbH"
+      logo: "/images/referenzen/amadeus_logo.webp"
+      URL: "https://amadeus.com"
 
     - name: "E.ON Climate & Renewables GmbH"
       logo: "/images/referenzen/eon_logo.webp"
