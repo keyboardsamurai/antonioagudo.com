@@ -8,8 +8,8 @@ Author: Antonio Agudo
 
 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
 <p>Antonio Agudo<br />
-Eigelstein 57-59<br />
-50668 K&ouml;ln</p>
+Marsiliusstraße 87<br />
+50937 K&ouml;ln</p>
 
 <h2>Kontakt</h2>
 <p>Telefon: +491701885991<br />
